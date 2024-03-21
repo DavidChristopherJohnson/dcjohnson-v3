@@ -1,6 +1,5 @@
 export default function NavBarLink({href, text}: {href: string, text:string}) {
     return <>
-            <li>
             <a href={href} className="block 
             py-2 
             px-3 
@@ -13,11 +12,12 @@ export default function NavBarLink({href, text}: {href: string, text:string}) {
             md:p-0 
             dark:text-white 
             md:dark:hover:text-blue-500 
-            dark:hover:bg-gray-700 
+            dark:hover:bg-gray-900 
             dark:hover:text-white 
-            md:dark:hover:bg-transparent">
+            mt-0
+            mr-4"
+            >
                 {text}
             </a>
-        </li>
     </>
 }
