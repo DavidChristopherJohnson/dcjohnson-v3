@@ -1,5 +1,6 @@
 export interface INavigationListItem {
     href: string,
     text: string,
-    uniqueKey: string
+    uniqueKey: string,
+    visible: boolean;
 }

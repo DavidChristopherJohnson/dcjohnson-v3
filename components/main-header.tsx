@@ -5,13 +5,16 @@ import MobileNavBar from "./nav-bar-mobile";
 const pages = [{
     href: '/',
     uniqueKey: 'about-me',
-    text: 'About Me'
+    text: 'About Me',
+    visible: true
 },
 {
     href:'/cv',
     text: 'CV',
-    uniqueKey: 'cv'
-}]
+    uniqueKey: 'cv',
+    visible: false
+}
+]
 
 export default function MainHeader () {
     
