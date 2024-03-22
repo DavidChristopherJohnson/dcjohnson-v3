@@ -67,13 +67,13 @@ export default function Home() {
           <div className="space-y-5">
             <h2>Personal Life</h2>
             <p>
-              I am a life long technical enthusiast and actually write source code for fun (I know I'm twisted). However outside of technology I do have other interests.
+              I am a life long technical enthusiast and actually write source code for fun (I know I&apos;m twisted). However outside of technology I do have other interests.
             </p>           
             <p>
-              I am a devoute supporter of the greatest football team of all time, Barnsley FC (It's just like watching Brazil.....or was that Ryhill.....I can never remember). I am a season ticket holder, and go along to the matches with my brother, my wife and my 2 kids.
+              I am a devoute supporter of the greatest football team of all time, Barnsley FC (It&apos;s just like watching Brazil.....or was that Ryhill.....I can never remember). I am a season ticket holder, and go along to the matches with my brother, my wife and my 2 kids.
             </p>
             <p>
-              One of the main hobbies is gaming (both board and computer). I have a collection of over 200 board games, which we play with friends in the evenings, or at the Wakefield Board Gaming Group's weekly meet up (funnily enough in castleford). I also attend the Airecon board gaming convention every year.
+              One of the main hobbies is gaming (both board and computer). I have a collection of over 200 board games, which we play with friends in the evenings, or at the Wakefield Board Gaming Group&apos;s weekly meet up (funnily enough in castleford). I also attend the Airecon board gaming convention every year.
             </p>
             <p> 
               In terms of computer games, I am a PlayStation 5 fan, with my favourite games being RPG. (The best one is Final Fantasy 7 in my book). I do also play some other games like Call of Duty and FIFA/Football FC.
