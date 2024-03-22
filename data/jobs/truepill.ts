@@ -13,7 +13,8 @@ export const HeliosXJob: IJob = {
         objectives: [],
         achievements: [],
         reasonForLeaving: ["The company was not in the secure financial state that they advertised when starting",
-            "Micro-management company culture creating a less than idea working environment"]
+            "Micro-management company culture creating a less than idea working environment"],
+    skills: []
 
     }
 }

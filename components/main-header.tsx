@@ -12,7 +12,7 @@ const pages = [{
     href:'/cv',
     text: 'CV',
     uniqueKey: 'cv',
-    visible: false
+    visible: true
 }
 ]
 
