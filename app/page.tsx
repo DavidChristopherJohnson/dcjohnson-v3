@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Avatar from '@/assets/Avatar.jpg';
-import CollapsableSection from "@/components/collapsable-section";
 
 const dobYear = 1985;
 const dobMonth = 4;
