@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className="flex-grow-1 p-10 space-y-5">
           <div>
-            <p>My name is David Christopher Johnson, and I am a {age} technologist, leader, mentor, husband and father. I currently live in Dewsbury, United Kingdom, with My Wife and 2 amazing kids</p>
+            <p>My name is David Christopher Johnson, and I am a {age} year old technologist, leader, mentor, husband and father. I currently live in Dewsbury, United Kingdom, with My Wife and 2 amazing kids</p>
           </div>
           <div className="space-y-5">
             <h2>Engineering Background</h2>
