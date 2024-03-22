@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <h1>About Me</h1>
       <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col" >
-        <div>
+        <div className="min-w-80">
           <Image src={Avatar} alt="David Johnson sat in a red chair looking at the camera" />
         </div>
         <div className="flex-grow-1 p-10 space-y-5">
