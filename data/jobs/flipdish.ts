@@ -3,12 +3,12 @@ import setDate from "@/utils/set-date";
 
 
 export const FlipdishJob: IJob = {
-    identifier: "Flipdish-2022",
+    identifier: "flip-2022",
     company: "Flipdish",
-    role: "Engineering Manager",
+    role: "Engineering Manager - Web & Mobile",
     location: "Dublin (Remote)",
     dateFrom: setDate('Jul 2022'),
-    dateTo: setDate('Mar 2023'),
+    dateTo: setDate('Apr 2023'),
     jobInfo: {
         objectives: ["Take on an line managment of the web team of up to 10 people on the companies flagship product",
             "Provide input into the larger company technonlogy division",
@@ -22,7 +22,7 @@ export const FlipdishJob: IJob = {
         "Implementing SCRUM ways of working",
         "Implementation of 'Friday Fun' to improve the overall company culture"
     ],
-        reasonForLeaving: [],
+        reasonForLeaving: ["The company moving into financial struggles, and I was looking for a place of stability at this point"],
         skills: ["Leadership",
         "Line Management",
         "Strategic Planning",

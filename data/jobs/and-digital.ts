@@ -3,12 +3,12 @@ import setDate from "@/utils/set-date";
 
 
 export const HeliosXJob: IJob = {
-    identifier: "heliosx-2023",
-    company: "HeliosX",
-    role: "Engineering Manager",
-    location: "London (Remote)",
-    dateFrom: setDate('Mar 2023'),
-    dateTo: setDate('Jun 2023'),
+    identifier: "and-2019",
+    company: "AND Digital",
+    role: "Senior Software Engineer",
+    location: "Halifax, West Yorkshire",
+    dateFrom: setDate('Oct 2019'),
+    dateTo: setDate('Feb 2021'),
     jobInfo: {
         objectives: [],
         achievements: [],

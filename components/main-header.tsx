@@ -9,15 +9,21 @@ const pages = [{
     visible: true
 },
 {
-    href:'/cv',
+    href: '/cv',
     text: 'CV',
     uniqueKey: 'cv',
     visible: true
+},
+{
+    href: '/contact',
+    text: 'Contact Me',
+    uniqueKey: 'contact',
+    visible: false
 }
 ]
 
-export default function MainHeader () {
-    
+export default function MainHeader() {
+
 
     return <header className="bg-black mb-0 pb-0">
         <NavBar pages={pages} />

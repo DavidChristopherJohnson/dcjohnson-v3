@@ -5,7 +5,7 @@ import setDate from "@/utils/set-date";
 export const BlexrJob: IJob = {
     identifier: "blexr-2023",
     company: "Blexr",
-    role: "Engineering Manager",
+    role: "Engineering Manager - CasinoReviews.com & Bonuses.com",
     location: "Malta (Remote)",
     dateFrom: setDate('Jun 2023'),
     dateTo: setDate('Mar 2024'),
