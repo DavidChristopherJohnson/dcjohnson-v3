@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Avatar from '@/assets/Avatar.jpg';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Home</h1>
-    </main>
+    <>
+      <h1>About Me</h1>
+      <Image src={Avatar} alt="David Johnson sat in a red chair looking at the camera" />      
+    </>
   );
 }

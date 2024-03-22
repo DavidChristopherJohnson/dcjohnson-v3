@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from "react";
-import NavBarLink from "./nav-link";
-import HamburgerButton from "./hamburger-button";
+import { INavigationBarProps } from "@/interfaces/navigation-bar-props.interface";
+import NavBarList from "./nav-bar-list";
 
-export default function MobileNavBar() {
+export default function MobileNavBar({ pages }: INavigationBarProps) {
     const [showMenu, setShowMenu] = useState(false);
 
     const isHidden = showMenu ? "" : "hidden";
@@ -25,8 +25,7 @@ export default function MobileNavBar() {
             </button>
         </div>
         <div className={isHidden}>
-            <NavBarLink href='/' text='Home' />
-            <NavBarLink href='/cv' text='CV' />
+            <NavBarList pages={pages} />
         </div>
     </nav>
 }

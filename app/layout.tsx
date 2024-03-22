@@ -14,10 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='bg-indigo-50 '>
+      <body>
         <MainHeader />
-        {children}
-        </body>
+        <main className="flex min-h-screen flex-col items-center p-5">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }

@@ -1,6 +1,7 @@
-export default function NavBarLink({href, text}: {href: string, text:string}) {
-    return <>
-            <a href={href} className="block 
+import { INavigationListItem } from "@/interfaces/navigation-list.interface";
+
+export default function NavBarLink({ href, text }: { href: string, text: string }) {
+    return <a href={href} className="block 
             py-2 
             px-3 
             text-gray-900 
@@ -16,8 +17,7 @@ export default function NavBarLink({href, text}: {href: string, text:string}) {
             dark:hover:text-white 
             mt-0
             mr-4"
-            >
-                {text}
-            </a>
-    </>
+    >
+        {text}
+    </a>
 }

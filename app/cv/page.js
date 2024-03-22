@@ -1,5 +1,5 @@
 export default function CvPage() {
-    return <main>
+    return <>
         <h1>CV Page</h1>
-    </main>
+    </>
 }
