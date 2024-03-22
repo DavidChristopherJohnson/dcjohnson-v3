@@ -10,7 +10,7 @@ export default function NavBar({ pages }: INavigationBarProps) {
                 <span className="font-semibold text-xl tracking-tight">D. C. Johnson</span>
             </Link>
         </div>
-        <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div className="flex-grow sm:flex sm:items-right sm:justify-end sm:w-auto">
             <NavBarList pages={pages}/>
         </div>
 
