@@ -1,6 +1,6 @@
 export interface IJobInfo {
-    objectives: Array<String>
-    achievements: Array<String>
+    objectives: Array<string>
+    achievements: Array<string>
     reasonForLeaving: Array<string>
-    skills: Array<String>
+    skills: Array<string>
 }
