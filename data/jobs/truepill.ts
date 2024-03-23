@@ -2,11 +2,11 @@ import IJob from "@/interfaces/job.interface";
 import setDate from "@/utils/set-date";
 
 
-export const HeliosXJob: IJob = {
+export const TruepillJob: IJob = {
     identifier: "tp-2021",
     company: "Truepill",
     role: "Lead Software Engineer",
-    location: "manchester (Remote)",
+    location: "Manchester (Remote)",
     dateFrom: setDate('Feb 2021'),
     dateTo: setDate('Jul 2022'),
     jobInfo: {
