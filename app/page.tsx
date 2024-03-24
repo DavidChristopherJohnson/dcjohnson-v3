@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div className="flex-grow-1 p-10 space-y-5">
           <div>
-            <p>My name is David Christopher Johnson, and I am a {age} year old technologist, leader, mentor, husband and father. I currently live in Dewsbury, United Kingdom, with my wife and two amazing kids</p>
+            <p>My name is David Christopher Johnson. I am a {age} year old technologist, leader, mentor, husband and father. I currently live in Dewsbury, United Kingdom, with my wife and two amazing kids</p>
           </div>
           <div className="space-y-5">
             <h2>Life Long Goal</h2>
@@ -33,7 +33,7 @@ export default function Home() {
               My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally none, rebalance the gender pay gap within the industry, as well as contribute to larger issues such as the environment, world hunger, homelessness, etc.
             </p>                       
             <p>
-              It would also be nice to be rich and semi-retire early at say 50 years old (used to be at 40 but I&quot;m a bit too close to that now), with my only goal to help people.
+              It would also be nice to be rich and to semi-retire early at the age of 50. It as originally my aimed to retire at 40 but I&apos;m a bit too close to that now.
             </p>
           </div>
           <div className="space-y-5">
