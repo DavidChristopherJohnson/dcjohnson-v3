@@ -4,7 +4,7 @@ import MainHeader from '@/components/main-header';
 
 export const metadata: Metadata = {
   title: "David Christoper Johnson",
-  description: "The personal web site of David Johnson - Technologist",
+  description: "The personal web site of David Johnson - Engineering Leader & Technologist",
 };
 
 export default function RootLayout({
