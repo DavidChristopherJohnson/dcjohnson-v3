@@ -28,6 +28,15 @@ export default function Home() {
             <p>My name is David Christopher Johnson, and I am a {age} year old technologist, leader, mentor, husband and father. I currently live in Dewsbury, United Kingdom, with my wife and two amazing kids</p>
           </div>
           <div className="space-y-5">
+            <h2>Life Long Goal</h2>
+            <p>
+              My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally none, rebalance the gender pay gap within the industry, as well as contribute to larger issues such as the environment, world hunger, homelessness, etc.
+            </p>                       
+            <p>
+              It would also be nice to be rich and semi-retire early at say 50 years old (used to be at 40 but I&quot;m a bit too close to that now), with my only goal to help people.
+            </p>
+          </div>
+          <div className="space-y-5">
             <h2>Engineering Background</h2>
             <p>
               I started my journey in technology at an early age, taking the family computer to pieces and upgrading components while in high school. It was at this point I knew I wanted to go into technology in some form. From here I attended at Wakefield Aceademic College in West Yorkshire, United Kingdom, where I attained an AVCE in ICT. It is at this tender age that I was first introduced to computer programming in the form of Visual Basic 6.
@@ -83,15 +92,6 @@ export default function Home() {
             </p>
             <p>
               I am an animal lover and at home we have 2 cats and almost 2 rabbits (one of the rabbits is sadly missing a foot).
-            </p>
-          </div>
-          <div className="space-y-5">
-            <h2>Life Long Goal</h2>
-            <p>
-              My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally none, rebalance the gender pay gap within the industry, as well as contribute to larger issues such as the environment, world hunger, homelessness, etc.
-            </p>                       
-            <p>
-              It would also be nice to be rich and semi-retire early at say 50 years old (used to be at 40 but I&quot;m a bit too close to that now), with my only goal to help people.
             </p>
           </div>
         </div>
