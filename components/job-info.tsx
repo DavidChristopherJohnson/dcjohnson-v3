@@ -7,7 +7,7 @@ export default function JobInfo(info: IJobInfo) {
     return <div>
         <JobSection title="Objectives" items={info.objectives} />
         <JobSection title="Achievements" items={info.achievements} />
-        <JobSection title="Reason(s) For Leaving" items={info.reasonForLeaving} />
+        <JobSection title="Reason For Leaving" items={info.reasonForLeaving} />
         <PillList title="Skills" values={info.skills} />
     </div>
 }
