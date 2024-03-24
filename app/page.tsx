@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Avatar from '@/assets/Avatar.jpg';
+import Pill from "@/components/pill";
+import Link from "next/link";
 
 const dobYear = 1985;
 const dobMonth = 4;
@@ -19,6 +21,7 @@ export default function Home() {
       <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col" >
         <div className="sm:min-w-80  max-sm:max-w-60 max-sm:self-center">
           <Image src={Avatar} alt="David Johnson sat in a red chair looking at the camera" />
+          <Link href='/cv' className="text-center"><Pill text="Click here for my CV"/></Link>
         </div>
         <div className="flex-grow-1 p-10 space-y-5">
           <div>
@@ -43,7 +46,7 @@ export default function Home() {
               After graduation I started my first permenant Software Engineering role at Concorde Infomatics (the team I as on was later sold to Northgate Public Services) on CARM (Computer Aided Reasource Management). I spent 7 years in this role, working my way up to principal engineer, in addition to being the defacto database and network administrator. This role comprised of creating resource management software for police forces in the UK. Initially this was in VB.NET restricted to 32bit architecture. When I left I had led initiatives to evolve this into a service orientated architecture built in C#, suitable for running on 64 bit architectures, resolving massive issues with resource availability. This software was used by soem of the biggest police forces in the UK.
             </p>
             <p>
-              After a number of years here I moved to KeyedIn Solutions, where I took a role as Senior Software Engineer, and left as a Technical Lead (which included hands on coding and line manager responsibilities). I spent a number of years here, working on their SaaS offtering for Project Portfolio Management (PPM) and Professional Services Automation (PSA) product. Eventually I decided to move on from KeyedIn as I wanted to exhibit my diversity as a software engineer, and not get 'typecast' as only being able to work in .Net.
+              After a number of years here I moved to KeyedIn Solutions, where I took a role as Senior Software Engineer, and left as a Technical Lead (which included hands on coding and line manager responsibilities). I spent a number of years here, working on their SaaS offtering for Project Portfolio Management (PPM) and Professional Services Automation (PSA) product. Eventually I decided to move on from KeyedIn as I wanted to exhibit my diversity as a software engineer, and not get &quot;typecast&quot; as only being able to work in .Net.
             </p>
             <p>
               In order to show my diversity of skills, I joined AND Digital where I tool a step down in role to become a Senior Software Engineer again. Here I worked on a number of clients including, Lloyds Banking Group, StepChange Debt Charity and Covea Insurance. In addition to client side work I was also heavily involved in teach / mentoring junior engineers, including providing technical and career guidance.
@@ -58,7 +61,7 @@ export default function Home() {
               My next role was working at Flipdish as an Engineering Manager, looking after the Web, Mobile iOS and Mobile Android teams of their flagship products. These teams represented 80% of the companies revenue. Here I was able to further demonstrate and refine my leadership and line management approaches, under the guidance of Craig Wayman (the then Director of Engineering). Eventually Flipdish started to struggle with similar financial difficulties, so I decided that the time was to move on to somewhere more stable for a time.
             </p>
             <p>
-              At this point I moved to HeliosX. I spent a brief spell here as Engineering Manager on the companies flagship products (ZipHealth., MedExpress and RocketRx). Shortly after starting here, I had to pivot to also take on product manager responsibilities, due to a round of redundancies. While doing both roles, I was able to re-prioritise the work the engineers were working on, so that we had a nice mix of delivering measurable value (in revenue) and paying down technical debt. During my brief spell here I was able to increase montly recurring revenue significantly. I decided to leave HeliosX after a very short time due to the financial state of the company, which I was originally told was profitable, but it transpires it was not, in addition to an incompatible company culture.
+              At this point I moved to HeliosX. I spent a brief spell here as Engineering Manager on the companies flagship products (ZipHealth., MedExpress and RocketRx). Shortly after starting here, I had to pivot to also take on product manager responsibilities, due to a round of redundancies. While doing both roles, I was able to re-prioritise the work the engineers were working on, so that we had a nice mix of delivering measurable value (in revenue) and paying down technical debt. During my brief spell here I was able to increase montly recurring revenue significantly. I decided to leave HeliosX after a very short time due to the financial state of the company which introduced redundancies shortly after I started.
             </p>
             <p>
               My latest role was at Blexr, which has been the best role I have had for a number of years. Here I was the Engineering Manager for the CasinoReviews.com team, in addition to eventually branching out to also running the Bonuses.com team. Over the nine months at Blexr, I have seen a huge amount of growth in myself, thanks by and large to my then line manager (and VP of Engineering) Jarrad Kabral. When I left the company due to redundancy I was one of the biggest line managers in the company, with 10 direct reports across multiple teams and technologies

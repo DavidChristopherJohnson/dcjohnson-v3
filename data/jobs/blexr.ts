@@ -32,7 +32,7 @@ export const BlexrJob: IJob = {
             "Identified and documented single points of failure",
             "Introduced a GAP Analysis framework for my team (which was later adopted by other line managers for their teams) that tracks a persons performance against the company wide role definitions. This helped craft goals for each engineer to give them direction for their progress in their careers both inside and outside of the company, in addition to helping them move towards their ultimate career goals"
         ],
-        reasonForLeaving: ["Redundancy"],
+        reasonForLeaving: ["Redundancy due to org restructure"],
         skills: ["Leadership",
             "Line Management",
             "Strategic Planning",
