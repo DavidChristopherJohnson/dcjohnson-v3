@@ -30,7 +30,7 @@ export const NorthgateJob: IJob = {
             'C#', "VB.Net", "ASP.Net",
             "MVC", "NUnit",
             'Javascript', 'Oracle', 'SQL Server',
-            'Suibversion', 'Apache', 'Microsoft Visual Source Safe',
+            'Subversion', 'Apache', 'Microsoft Visual Source Safe',
             'Team Foundation Service',
             "Database Administration",
             'Network Administration'
