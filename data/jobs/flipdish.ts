@@ -32,6 +32,7 @@ export const FlipdishJob: IJob = {
             "Recruitment",
             "Capacity Planning",
             "Stakeholder Management",
-            "Team Goal / OKR Tracking"]
+            "Team Goal / OKR Tracking",
+            "Jira", "Notion", "CircleCI", 'Git']
     }
 }

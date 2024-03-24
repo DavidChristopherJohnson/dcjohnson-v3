@@ -15,7 +15,7 @@ export const TruepillJob: IJob = {
             "Implement Agile ways of working",
             "Working 90% line management, 10% hands on coding"],
         achievements: ["Delivered a new online pharamacy platform (http://costplusdrugs.com) including creating the architectural design that supported 2m+ unique visitors per week",
-            "Implemented and refined Agile ways of working, moving the team towards working in SCRUM",
+            "Implemented and refined agile ways of working, moving the team towards working in SCRUM",
             "Acted as Engineering Manager on the new online pharmacy project (Cost Plus Drugs)",
             "Hired the first graduate in the company"],
         reasonForLeaving: ["Decided to move on after the company fell into financial difficulty"],
@@ -23,6 +23,8 @@ export const TruepillJob: IJob = {
             "Leadership",
             "Line Management",
             "Performance Management",
+            "Software Architecture",
+            "Git",
             "Next.js",
             "Node.js",
             "Koa",
@@ -42,6 +44,8 @@ export const TruepillJob: IJob = {
             "CI/CD",
             "SCRUM / Agile",
             "Capacity Planning",
+            "Jira",
+            "Confluence",
             "Stakeholder Management"]
 
     }

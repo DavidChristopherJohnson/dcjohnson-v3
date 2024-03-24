@@ -42,6 +42,8 @@ export const BlexrJob: IJob = {
             "Performance Management",
             "Recruitment Interviews",
             "Stakeholder Management",
-            "Team Goal / OKR Tracking"]
+            "Team Goal / OKR Tracking",
+            "Jira",
+            "Notion"]
     }
 }
