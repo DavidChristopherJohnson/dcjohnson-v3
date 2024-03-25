@@ -13,7 +13,7 @@ export const BlexrJob: IJob = {
         objectives: ["Line management of two teams of engineers.",
             "Improve ways of working within the engineering teams.",
             "Implement change throughout the company-wide technology chapter.",
-            "Set technical roadmap for tibes.",
+            "Set technical roadmaps for tribes.",
             "Review team structure and technical skills.",
             "Use tech to empower the other chapters and the larger company.",
             "Identify single points of failure."
