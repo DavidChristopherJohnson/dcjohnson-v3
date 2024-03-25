@@ -7,24 +7,9 @@ import CareerSummary from '@/components/career-summary';
 import PrintToPfd from '@/utils/print-to-pdf';
 import Pill from '/components/pill';
 
-export default function CvPage() {
-    const handlePrintClick = () => {
-        const toPrint = document.getElementById('to-print');
-            
-        // toPrint.style.margin = 'auto';
-        // toPrint.style.width = '210mm';
-        // toPrint.style.minHeight = '297mm';
-
-        PrintToPfd(toPrint);
-    }
-
+export default function PrintCvPage() {
     return <div id='to-print' >
-        <h1>Curriculum Vitae</h1>
-
-        <button className='hidden' id='print-button' data-html2canvas-ignore="true" onClick={handlePrintClick}>
-            <Pill text='Download PDF' />
-        </button>
-
+        <h1>Curriculum Vitae</h1>        
         <div className="w-full mt-2 max-w-7xl flex flex-grow-1 flex-col" >
             <CareerSummary />
         </div>
