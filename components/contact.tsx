@@ -27,7 +27,7 @@ export default function ContactDetails() {
                 </div>
                 <div className="w-full max-w-7xl pl-5 flex flex-grow-1 max-sm:flex-col" >
                     <div className="min-w-28 max-sm:hidden">
-                        <h3>Tel:</h3>
+                        <h3>Phone:</h3>
                     </div>
                     <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-row" >
                         <Icon image={PhoneSvg} alt='Phone symbol' />

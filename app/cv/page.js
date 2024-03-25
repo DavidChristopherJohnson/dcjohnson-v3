@@ -35,12 +35,12 @@ export default function CvPage() {
             <Contributions contributions={ContributionsData} />
         </div>
         <div className="w-full max-w-7xl flex flex-grow-1 flex-col" >
-            <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col pb-2" >
+            <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col py-2" >
                 <div className="min-w-80 max-sm:pb-2">
                     <h2>Employment History</h2>
                 </div>
             </div>
-            {Jobs.map(job => <div key={job.identifier} className='pb-10 border-solid border-b-2 mt-5'><Job {...job} /></div>)}
+            {Jobs.map(job => <div key={job.identifier} className='pb-10 border-solid border-b-2 mt-3'><Job {...job} /></div>)}
         </div>
     </div>
 }
