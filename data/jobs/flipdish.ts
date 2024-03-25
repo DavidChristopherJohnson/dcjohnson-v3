@@ -10,9 +10,9 @@ export const FlipdishJob: IJob = {
     dateFrom: setDate('Jul 2022'),
     dateTo: setDate('Apr 2023'),
     jobInfo: {
-        objectives: ["Line managment of the three teams (web, mobile iOS and mobile Android), on the companies flagship product",
-            "Provide input into the company wide technonlogy division",
-            "Deliver enhancements to the product, while reducing technical debt"],
+        objectives: ["Line managment of the three teams (web, mobile iOS and mobile Android), on the companies flagship product.",
+            "Provide input into the company wide technonlogy division.",
+            "Deliver enhancements to the product, while reducing technical debt."],
         achievements: ["Tracked team metrics to highlight areas for improvements. This resulted in pinpointing areas of improvement for the team in terms of operational efficiency, resulting in actions that improved speed to delivery, throughput and quality.",
             "Reduced mission critical techincal debt around mobile implementations, ensuring that as aging architecture is deprecated, the product was safe from exposure security vulnerabilitys, and unavailability of updates.",
             "implementing changes in address autocomplete behaviour, resulting in a reduced cost of Google Maps by a 3rd saving the company $1,500 per month.",
@@ -21,7 +21,7 @@ export const FlipdishJob: IJob = {
             "Implementing SCRUM and Agile ways of working, resulting the the engineering teams moving towards repeatedly deliverying on what they committed to, preventing over-commitment and making all work visible.",
             "Implementation of 'Friday Fun' to add to the overall company culture, improving moral."
         ],
-        reasonForLeaving: ["The company started to have financial struggles, and I was looking for a place of stability at this point"],
+        reasonForLeaving: ["The company started to have financial struggles, and I was looking for a place of stability at this point."],
         skills: ["Leadership",
             "Line Management",
             "Strategic Planning",
