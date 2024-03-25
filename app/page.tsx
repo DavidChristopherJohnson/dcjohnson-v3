@@ -30,54 +30,74 @@ export default function Home() {
           <div className="space-y-5">
             <h2>Life Long Goal</h2>
             <p>
-              My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally none, rebalance the gender pay gap within the industry, as well as contribute to larger issues such as the environment, world hunger, homelessness, etc.
+              My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally none, rebalance the gender pay gap within the industry, 
+              as well as contribute to larger issues such as the environment, world hunger, homelessness, etc.
             </p>                       
             <p>
-              It would also be nice to be rich and to semi-retire early at the age of 50. It as originally my aimed to retire at 40 but I&apos;m a bit too close to that now.
+              It would also be nice to be rich and to semi-retire early at the age of 50. It was originally my aim to retire at 40 but I&apos;m a bit too close to that now.
             </p>
           </div>
           <div className="space-y-5">
             <h2>Engineering Background</h2>
             <p>
-              I started my journey in technology at an early age, taking the family computer to pieces and upgrading components while in high school. It was at this point I knew I wanted to go into technology in some form. From here I attended at Wakefield Aceademic College in West Yorkshire, United Kingdom, where I attained an AVCE in ICT. It is at this tender age that I was first introduced to computer programming in the form of Visual Basic 6.
+              I started my journey in technology at an early age, taking the family computer to pieces and upgrading components while in high school. It was at this point I knew I wanted to go into technology in some form. 
+              From here I attended at Wakefield Aceademic College in West Yorkshire, United Kingdom, where I attained an AVCE in ICT. Whilst here I was first introduced to computer programming in the form of Visual Basic 6.
             </p>
             <p>
               This spurred me on to look at other programming languages, such as YABASIC which I used to create a four player game of Pong on my PlayStation 2.
             </p>
             <p>
-              After college I attended the University of Bradford undertaking a degree in Cybernetics and Virtual Worlds. This involved subjects such as robotics, scientific programming, cybernetics, structured programming, AI and Modelling & Simulation. During my degree I spent my 3rd year working in the industry at Minnie Business Systems, based in London. Here I was exposed to more programming languages,
+              After college I attended the University of Bradford undertaking a degree in Cybernetics and Virtual Worlds. This involved subjects such as robotics, scientific programming, cybernetics, structured programming, 
+              AI and Modelling & Simulation. During my degree I spent my 3rd year working in the industry at Minnie Business Systems, based in London. Here I was exposed to more programming languages,
               such as C# and COBOL, while also gaining experience in network administraion, setting up exchange servers and source control (Team Foundation Server) server implementations.
             </p>
             <p>
               I graduated from university in 2009 with a BSc with Hons.
             </p>
             <p>
-              After graduation I started my first permenant Software Engineering role at Concorde Infomatics (the team I as on was later sold to Northgate Public Services) on CARM (Computer Aided Reasource Management). I spent 7 years in this role, working my way up to principal engineer, in addition to being the defacto database and network administrator. This role comprised of creating resource management software for police forces in the UK. Initially this was in VB.NET restricted to 32bit architecture. When I left I had led initiatives to evolve this into a service orientated architecture built in C#, suitable for running on 64 bit architectures, resolving massive issues with resource availability. This software was used by soem of the biggest police forces in the UK.
+              After graduation I started my first permenant Software Engineering role at Concorde Infomatics (the team I as on was later sold to Northgate Public Services) on CARM (Computer Aided Reasource Management). 
+              I spent 7 years in this role, working my way up to principal engineer, in addition to being the defacto database and network administrator. This role comprised of creating resource management software for police forces in the UK. 
+              Initially this was in VB.NET restricted to 32 bit architecture. When I left I had led initiatives to evolve this into a service orientated architecture built in C#, suitable for running on 64 bit architectures, resolving massive issues with resource availability. 
+              This software was used by some of the biggest police forces in the UK.
             </p>
             <p>
-              After a number of years here I moved to KeyedIn Solutions, where I took a role as Senior Software Engineer, and left as a Technical Lead (which included hands on coding and line manager responsibilities). I spent a number of years here, working on their SaaS offtering for Project Portfolio Management (PPM) and Professional Services Automation (PSA) product. Eventually I decided to move on from KeyedIn as I wanted to exhibit my diversity as a software engineer, and not get &quot;typecast&quot; as only being able to work in .Net.
+              After a number of years here I moved to KeyedIn Solutions, where I took a role as Senior Software Engineer, and left as a Technical Lead (which included hands on coding and line manager responsibilities). 
+              I spent a number of years here, working on their SaaS offtering for Project Portfolio Management (PPM) and Professional Services Automation (PSA) product. Eventually I decided to move on from KeyedIn as I wanted to exhibit my diversity as a software engineer, 
+              and not get &quot;typecast&quot; as only being able to work in .Net.
             </p>
             <p>
-              In order to show my diversity of skills, I joined AND Digital where I tool a step down in role to become a Senior Software Engineer again. Here I worked on a number of clients including, Lloyds Banking Group, StepChange Debt Charity and Covea Insurance. In addition to client side work I was also heavily involved in teach / mentoring junior engineers, including providing technical and career guidance.
+              In order to show my diversity of skills, I joined AND Digital where I tool a step down in role to become a Senior Software Engineer again. Here I worked on a number of clients including, Lloyds Banking Group, StepChange Debt Charity and Covea Insurance. 
+              In addition to client work I was also heavily involved in teach / mentoring junior engineers, including providing technical and career guidance.
             </p>
             <p>
-              Eventually after proving that I could adapt to different programming languages (after all programming is a set of patterns, practises and principles; and not about knowing a lot of code by heart), I wanted to reprise my role as a leader. Unfortunatley the opportunity was not available at that time with AND digital, so I made the decision to take a role at TruePill.
+              Eventually after proving that I could adapt to different programming languages , I wanted to reprise my role as a leader. Unfortunatley the opportunity was not available at that time with AND digital, so I made the decision to take a role at TruePill.
             </p>
             <p>
-              At TruePill I was the team leader of 5 engineers, on the Mark Cuban Cost Plus Drugs company project. There was a spell here where due to requirement (i.e. lack of personnel), I spent a few months working as team leader for two teams (including line manager responsibilities), technical architect and engineering manager (until dedicated people were hired). I really enjoyed my time at TruePill, but unfortunately when the bubble happened in Silicon Valley, the company started to loose confidence in being able to secure funding and as a result, cuts were starting to be made. I decided at this point to move onto another role.
+              At TruePill I was the team leader of 5 engineers, on the Mark Cuban Cost Plus Drugs company project. There was a spell here where due to requirement (i.e. lack of personnel), 
+              I spent a few months working as team leader for two teams (including line manager responsibilities), technical architect and engineering manager (until dedicated people were hired). 
+              I really enjoyed my time at TruePill, but unfortunately when the bubble happened in Silicon Valley, the company started to loose confidence in being able to secure funding and as a result, cuts were starting to be made. I decided at this point to move onto another role.
             </p>
             <p>
-              My next role was working at Flipdish as an Engineering Manager, looking after the Web, Mobile iOS and Mobile Android teams of their flagship products. These teams represented 80% of the companies revenue. Here I was able to further demonstrate and refine my leadership and line management approaches, under the guidance of Craig Wayman (the then Director of Engineering). Eventually Flipdish started to struggle with similar financial difficulties, so I decided that the time was to move on to somewhere more stable for a time.
+              My next role was working at Flipdish as an Engineering Manager, looking after the Web, Mobile iOS and Mobile Android teams of their flagship products. These teams represented 80% of the companies revenue. 
+              Here I was able to further demonstrate and refine my leadership and line management approaches, under the guidance of Craig Wayman (the then Director of Engineering). Eventually Flipdish started to struggle with similar financial difficulties, 
+              so I decided that the time was to move on to somewhere more stable for a time.
             </p>
             <p>
-              At this point I moved to HeliosX. I spent a brief spell here as Engineering Manager on the companies flagship products (ZipHealth., MedExpress and RocketRx). Shortly after starting here, I had to pivot to also take on product manager responsibilities, due to a round of redundancies. While doing both roles, I was able to re-prioritise the work the engineers were working on, so that we had a nice mix of delivering measurable value (in revenue) and paying down technical debt. During my brief spell here I was able to increase montly recurring revenue significantly. I decided to leave HeliosX after a very short time due to the financial state of the company which introduced redundancies shortly after I started.
+              At this point I moved to HeliosX. I spent a brief spell here as Engineering Manager on the companies flagship products (ZipHealth., MedExpress and RocketRx). Shortly after starting here, I had to pivot to also take on product manager responsibilities, 
+              due to a round of redundancies. While doing both roles, I was able to re-prioritise the work the engineers were working on, so that we had a nice mix of delivering measurable value (in revenue) and paying down technical debt. 
+              During my brief spell here I was able to increase montly recurring revenue significantly. I decided to leave HeliosX after a very short time due to the financial state of the company which introduced redundancies shortly after I started.
             </p>
             <p>
-              My latest role was at Blexr, which has been the best role I have had for a number of years. Here I was the Engineering Manager for the CasinoReviews.com team, in addition to eventually branching out to also running the Bonuses.com team. Over the nine months at Blexr, I have seen a huge amount of growth in myself, thanks by and large to my then line manager (and VP of Engineering) Jarrad Kabral. When I left the company due to redundancy I was one of the biggest line managers in the company, with 10 direct reports across multiple teams and technologies
+              My latest role was at Blexr, which has been the best role I have had for a number of years. Here I was the Engineering Manager for the CasinoReviews.com team, in addition to eventually branching out to also taking on the Bonuses.com team. 
+              Over the nine months at Blexr, I have seen a huge amount of growth in myself, thanks largely to my then line manager (and VP of Engineering) Jarrad Kabral. When I left the company due to redundancy I was one of the biggest line managers in the company, 
+              with 10 direct reports across multiple teams and technologies
             </p>
           </div>
           <div className="space-y-5">
             <h2>Personal Life</h2>
+            <p>
+              First and foremost I am a father of two amazing kids (my son who's 4 and my daughter who is 3), and husband to one wife (I really don't think I could handle more). They are what drives me forward in both my career and in life. We all live happily in our home in Dewsbury, UK, with occasional jaunts to the east coast of england, where we love to spend our time.
+            </p>         
             <p>
               I am a life long technical enthusiast and actually write source code for fun (I know I&apos;m twisted). However outside of technology I do have other interests.
             </p>           
