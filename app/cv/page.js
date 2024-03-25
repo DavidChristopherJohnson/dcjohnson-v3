@@ -6,6 +6,7 @@ import Contributions from '@/components/contributions';
 import CareerSummary from '@/components/career-summary';
 import PrintToPfd from '@/utils/print-to-pdf';
 import Pill from '/components/pill';
+import ContactDetails from '@/components/contact';
 
 export default function CvPage() {
     const handlePrintClick = () => {
@@ -24,7 +25,9 @@ export default function CvPage() {
         <button className='hidden' id='print-button' data-html2canvas-ignore="true" onClick={handlePrintClick}>
             <Pill text='Download PDF' />
         </button>
-
+        <div className="w-full mt-2 max-w-7xl flex flex-grow-1 flex-col pb-5" >
+            <ContactDetails />
+        </div>
         <div className="w-full mt-2 max-w-7xl flex flex-grow-1 flex-col" >
             <CareerSummary />
         </div>
