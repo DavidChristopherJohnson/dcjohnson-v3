@@ -30,7 +30,7 @@ export default function Home() {
           <div className="space-y-5">
             <h2>Life Long Goal</h2>
             <p>
-              My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally none, rebalance the gender pay gap within the industry, 
+              My number one goal in life is to one day own my own business that generates enough profits so that I can use the money to do some good in the world. By sharing the wealth I want to give people opportunities where they would normally have none, rebalance the gender pay gap within the industry, 
               as well as contribute to larger issues such as the environment, world hunger, homelessness, etc.
             </p>                       
             <p>
@@ -41,7 +41,7 @@ export default function Home() {
             <h2>Engineering Background</h2>
             <p>
               I started my journey in technology at an early age, taking the family computer to pieces and upgrading components while in high school. It was at this point I knew I wanted to go into technology in some form. 
-              From here I attended at Wakefield Aceademic College in West Yorkshire, United Kingdom, where I attained an AVCE in ICT. Whilst here I was first introduced to computer programming in the form of Visual Basic 6.
+              From here I attended Wakefield A. C. where I attained an AVCE in ICT. Whilst here I was first introduced to, and fell in love with, computer programming. This came in the form of Visual Basic 6.
             </p>
             <p>
               This spurred me on to look at other programming languages, such as YABASIC which I used to create a four player game of Pong on my PlayStation 2.
@@ -49,10 +49,7 @@ export default function Home() {
             <p>
               After college I attended the University of Bradford undertaking a degree in Cybernetics and Virtual Worlds. This involved subjects such as robotics, scientific programming, cybernetics, structured programming, 
               AI and Modelling & Simulation. During my degree I spent my 3rd year working in the industry at Minnie Business Systems, based in London. Here I was exposed to more programming languages,
-              such as C# and COBOL, while also gaining experience in network administraion, setting up exchange servers and source control (Team Foundation Server) server implementations.
-            </p>
-            <p>
-              I graduated from university in 2009 with a BSc with Hons.
+              such as C# and COBOL, while also gaining experience in network administraion, setting up exchange servers and source control (Team Foundation Server) server implementations. I graduated from university in 2009 with a BSc with Hons.
             </p>
             <p>
               After graduation I started my first permenant Software Engineering role at Concorde Infomatics (the team I as on was later sold to Northgate Public Services) on CARM (Computer Aided Reasource Management). 
@@ -66,16 +63,16 @@ export default function Home() {
               and not get &quot;typecast&quot; as only being able to work in .Net.
             </p>
             <p>
-              In order to show my diversity of skills, I joined AND Digital where I tool a step down in role to become a Senior Software Engineer again. Here I worked on a number of clients including, Lloyds Banking Group, StepChange Debt Charity and Covea Insurance. 
-              In addition to client work I was also heavily involved in teach / mentoring junior engineers, including providing technical and career guidance.
+              In order to show my diversity of skills, I joined AND Digital where I took a step down in role to become a Senior Software Engineer again. Here I worked on a number of clients including, Lloyds Banking Group, StepChange Debt Charity and Covea Insurance. 
+              In addition to client work I was also heavily involved in teach / mentoring junior engineers, providing technical and career guidance.
             </p>
             <p>
               Eventually after proving that I could adapt to different programming languages , I wanted to reprise my role as a leader. Unfortunatley the opportunity was not available at that time with AND digital, so I made the decision to take a role at TruePill.
             </p>
             <p>
               At TruePill I was the team leader of 5 engineers, on the Mark Cuban Cost Plus Drugs company project. There was a spell here where due to requirement (i.e. lack of personnel), 
-              I spent a few months working as team leader for two teams (including line manager responsibilities), technical architect and engineering manager (until dedicated people were hired). 
-              I really enjoyed my time at TruePill, but unfortunately when the bubble happened in Silicon Valley, the company started to loose confidence in being able to secure funding and as a result, cuts were starting to be made. I decided at this point to move onto another role.
+              I spent a few months working as team leader for two teams (including line manager responsibilities), technical architect and engineering manager, until dedicated people were hired. 
+              I really enjoyed my time at TruePill, but unfortunately when the bubble happened in Silicon Valley, the company started to loose confidence in being able to secure funding and as a result, budget cuts and redundancies were being made. I decided at this point to move onto another role.
             </p>
             <p>
               My next role was working at Flipdish as an Engineering Manager, looking after the Web, Mobile iOS and Mobile Android teams of their flagship products. These teams represented 80% of the companies revenue. 
@@ -96,7 +93,7 @@ export default function Home() {
           <div className="space-y-5">
             <h2>Personal Life</h2>
             <p>
-              First and foremost I am a father of two amazing kids (my son who&apos;s 4 and my daughter who is 3), and husband to one wife (I really don&apos;t think I could handle more). They are what drives me forward in both my career and in life. We all live happily in our home in Dewsbury, UK, with occasional jaunts to the east coast of england, where we love to spend our time.
+              First and foremost I am a father of two amazing kids (my son who&apos;s 4 and my daughter who is 3), and husband to one amazing wife (I really don&apos;t think I could handle more). They are what drives me forward in both my career and in life. We all live happily in our home in Dewsbury, UK, with occasional jaunts to the east coast of england, where we love to spend our time.
             </p>         
             <p>
               I am a life long technical enthusiast and actually write source code for fun (I know I&apos;m twisted). However outside of technology I do have other interests.
@@ -105,13 +102,18 @@ export default function Home() {
               I am a devout supporter of the greatest football team of all time, Barnsley FC (It&apos;s just like watching Brazil.....or was that Ryhill.....I can never remember). I am a season ticket holder, and go along to the matches with my brother, my wife and my two kids (who relish in shouting &quot;YOU REDS&quot;).
             </p>
             <p>
-              One of my main hobbies is gaming (both board and computer). I have a collection of over 200 board games, which my wife and I play with friends in the evenings, or at the <a className='underline font-bold' href='https://www.facebook.com/groups/wakefieldboardgamegroup' rel='nofollow noreferrer'>Wakefield Board Gaming Group&apos;s</a> weekly meet up (funnily enough hosted in castleford...there is a story here). I also attend the Airecon board gaming convention every year in harrogate; Not to mention to new local board gaming convention TessaCon which is hosted by the Wakefield gaming group.
+              One of my main hobbies is gaming (both board and computer). I have a collection of over 200 board games, which my wife and I play with friends in the evenings, or at the 
+              <a className='underline font-bold hover:bg-gray-300' href='https://www.facebook.com/groups/wakefieldboardgamegroup' rel='nofollow no-referrer'>Wakefield Board Gaming Group&apos;s</a> weekly meet up 
+              (funnily enough hosted in castleford...there is a story here). I also attend the Airecon board gaming convention every year in harrogate; Not to mention the new local board gaming convention <b>TessaCon</b> which is hosted by the Wakefield gaming group.
             </p>
             <p> 
-              In terms of computer games, I am a PlayStation 5 fan, with my favourite games being RPG. My favourite is Final Fantasy 7. I do also play some other games like Call of Duty and FIFA/Football FC (which I am sad to say I have bought what seems to be the same game for the last 15 years).
+              In terms of computer games, I am a PlayStation 5 fan, with my favourite genre being RPG. My favourite of which is Final Fantasy 7. I do also play some other games, such as Call of Duty and FIFA/Football FC (which I am sad to say I have bought what seems to be the same game for the last 15 years).
             </p>
             <p>
-              I am an animal lover and at home we have 2 cats and almost 2 rabbits (one of the rabbits is sadly missing a foot).
+              I am also a big reader of both fiction books and professional books. My favourite author is Terry Pratchett, however I am currently very invested in the forgotten realms, legend of Drizzt books.
+            </p>
+            <p>
+              I am an animal lover and have two cats and (almost) two rabbits (one of the rabbits is sadly missing a foot).
             </p>
           </div>
         </div>
