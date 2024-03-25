@@ -96,7 +96,7 @@ export default function Home() {
           <div className="space-y-5">
             <h2>Personal Life</h2>
             <p>
-              First and foremost I am a father of two amazing kids (my son who's 4 and my daughter who is 3), and husband to one wife (I really don't think I could handle more). They are what drives me forward in both my career and in life. We all live happily in our home in Dewsbury, UK, with occasional jaunts to the east coast of england, where we love to spend our time.
+              First and foremost I am a father of two amazing kids (my son who&apos;s 4 and my daughter who is 3), and husband to one wife (I really don&apos;t think I could handle more). They are what drives me forward in both my career and in life. We all live happily in our home in Dewsbury, UK, with occasional jaunts to the east coast of england, where we love to spend our time.
             </p>         
             <p>
               I am a life long technical enthusiast and actually write source code for fun (I know I&apos;m twisted). However outside of technology I do have other interests.
