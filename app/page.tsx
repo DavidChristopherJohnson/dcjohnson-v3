@@ -75,12 +75,12 @@ export default function Home() {
               I enjoyed my time at TruePill, but unfortunately, when the bubble happened in Silicon Valley, the company started to lose confidence in being able to secure funding and as a result, budget cuts and redundancies were being made. I decided at this point to move on to another role.
             </p>
             <p>
-              My next role was working at Flipdish as an Engineering Manager, looking after the Web, Mobile iOS and Mobile Android teams of their flagship products. These teams represented 80% of the company's revenue. 
+              My next role was working at Flipdish as an Engineering Manager, looking after the Web, Mobile iOS and Mobile Android teams of their flagship products. These teams represented 80% of the company&apos;s revenue. 
               Here I was able to further demonstrate and refine my leadership and line management approaches, under the guidance of Craig Wayman (the then Director of Engineering). Eventually, Flipdish started to struggle with similar financial difficulties, 
               so I decided that the time was to move on to somewhere more stable for a time.
             </p>
             <p>
-              At this point, I moved to HeliosX. I spent a brief spell here as Engineering Manager on the company's flagship products (ZipHealth., MedExpress and RocketRx). Shortly after starting here, I had to pivot to also take on product manager responsibilities, 
+              At this point, I moved to HeliosX. I spent a brief spell here as Engineering Manager on the company&apos;s flagship products (ZipHealth., MedExpress and RocketRx). Shortly after starting here, I had to pivot to also take on product manager responsibilities, 
               due to a round of redundancies. While doing both roles, I was able to re-prioritise the work the engineers were working on, so that we had a nice mix of delivering measurable value (in revenue) and paying down technical debt. 
               During my brief spell here I was able to increase monthly recurring revenue significantly. I decided to leave HeliosX after a very short time due to the financial state of the company which introduced redundancies shortly after I started.
             </p>
