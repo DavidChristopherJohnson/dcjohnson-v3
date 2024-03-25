@@ -4,27 +4,19 @@ import Jobs from '@/data/jobs';
 import ContributionsData from '@/data/contributions';
 import Contributions from '@/components/contributions';
 import CareerSummary from '@/components/career-summary';
-import PrintToPfd from '@/utils/print-to-pdf';
 import Pill from '/components/pill';
 import ContactDetails from '@/components/contact';
+import Link from 'next/link';
 
 export default function CvPage() {
-    const handlePrintClick = () => {
-        const toPrint = document.getElementById('to-print');
-            
-        // toPrint.style.margin = 'auto';
-        // toPrint.style.width = '210mm';
-        // toPrint.style.minHeight = '297mm';
-
-        PrintToPfd(toPrint);
-    }
-
     return <div id='to-print' >
         <h1>Curriculum Vitae</h1>
 
-        <button className='hidden' id='print-button' data-html2canvas-ignore="true" onClick={handlePrintClick}>
-            <Pill text='Download PDF' />
-        </button>
+        <div className="w-full mt-1 flex" >
+            <Link href={'D.C.Johnson-CV.pdf'} target='_blank'>
+                <Pill text='Download CV as PDF' />
+            </Link>
+        </div>
         <div className="w-full mt-2 max-w-7xl flex flex-grow-1 flex-col pb-5" >
             <ContactDetails />
         </div>
