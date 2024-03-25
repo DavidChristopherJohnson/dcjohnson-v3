@@ -13,10 +13,10 @@ export const TruepillJob: IJob = {
         objectives: ["Line manage a team of engineers.",
             "Help grow the engineering function via recruitment.",
             "Implement Agile ways of working.",
-            "Working 90% line management, 10% hands on coding."],
+            "Work 90% as line management and 10% individual contributor."],
         achievements: ["Delivered a new online pharamacy platform (http://costplusdrugs.com) that supports 2m+ unique visitors per week, driving revenue for the company.",
-            "Implemented and refined agile ways of working, moving the team towards working in SCRUM resulting in accurate estimations and setting of realistic expectations with stakeholders and highlighting where additional hiring was required.",
-            "Acted as Engineering Manager on the new online pharmacy project (Cost Plus Drugs), resulting in a continuation of leadership and direction for the engineering teams in the absence of a dedicated person.",
+            "Implemented and refined agile ways of working, moving the team towards working in SCRUM resulting in accurate estimations and setting of realistic expectations with stakeholders. This also highlighted additional recruitment requirements.",
+            "Acted as Engineering Manager on the new online pharmacy project (Cost Plus Drugs), resulting in a continuation of leadership and direction for the engineering teams in the absence of dedicated personnel.",
             "Hired the first graduate in the company, resulting in a company wide graduate program initiative being created."],
         reasonForLeaving: ["Decided to move on after the company fell into financial difficulty."],
         skills: [
