@@ -7,8 +7,8 @@ export const ANDJob: IJob = {
     company: "AND Digital",
     role: "Senior Software Engineer",
     location: "Halifax, West Yorkshire",
-    dateFrom: setDate('Apr 01 2016'),
-    dateTo: setDate('Oct 01 2019'),
+    dateFrom: setDate('Oct 01 2019'),
+    dateTo: setDate('Feb 01 2021'),
     jobInfo: {
         objectives: ['Work as an individual contributor within the software consultancy.',
             'Lead on client-side projects.',

@@ -7,8 +7,8 @@ export const KeyedInJob: IJob = {
     company: "KeyedIn Solutions",
     role: "Technical Lead",
     location: "Bradford, West Yorkshire",
-    dateFrom: setDate('Oct 01 2019'),
-    dateTo: setDate('Feb 01 2021'),
+    dateFrom: setDate('Apr 01 2016'),
+    dateTo: setDate('Oct 01 2019'),
     jobInfo: {
         objectives: ['Work as a technical expert on the flagship product.',
             'Line manage a team of engineers.',
