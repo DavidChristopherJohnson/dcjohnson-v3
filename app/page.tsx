@@ -2,6 +2,7 @@ import Image from "next/image";
 import Avatar from '@/assets/Avatar.jpg';
 import Pill from "@/components/pill";
 import Link from "next/link";
+import CvDownloadButton from "@/components/cv-download-button";
 
 const dobYear = 1985;
 const dobMonth = 4;
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="sm:min-w-80  max-sm:max-w-60 max-sm:self-center">
           <Image src={Avatar} alt="David Johnson sat in a red chair looking at the camera" />
           <Link href='/cv' className="text-center"><Pill text="View CV"/></Link>
-          <Link href='D.C.Johnson-CV.pdf' className="text-center" target="_blank"><Pill text="Download CV as PDF"/></Link>
+          <CvDownloadButton />
         </div>
         <div className="flex-grow-1 p-10 space-y-5">
           <div>

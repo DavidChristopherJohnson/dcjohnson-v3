@@ -4,18 +4,15 @@ import Jobs from '@/data/jobs';
 import ContributionsData from '@/data/contributions';
 import Contributions from '@/components/contributions';
 import CareerSummary from '@/components/career-summary';
-import Pill from '/components/pill';
 import ContactDetails from '@/components/contact';
-import Link from 'next/link';
+import CvDownloadButton from '@/components/cv-download-button';
 
 export default function CvPage() {
     return <div id='to-print' >
         <h1>Curriculum Vitae</h1>
 
         <div className="w-full mt-1 flex" >
-            <Link href={'D.C.Johnson-CV.pdf'} target='_blank'>
-                <Pill text='Download CV as PDF' />
-            </Link>
+            <CvDownloadButton />
         </div>
         <div className="w-full mt-2 max-w-7xl flex flex-grow-1 flex-col pb-5" >
             <ContactDetails />
