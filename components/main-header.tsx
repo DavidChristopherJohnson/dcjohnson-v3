@@ -19,7 +19,13 @@ const pages = [{
     text: 'Contact Me',
     uniqueKey: 'contact',
     visible: false
-}
+},
+{
+    href: '/articles',
+    text: 'Articles',
+    uniqueKey: 'articles',
+    visible: false
+},
 ]
 
 export default function MainHeader() {
