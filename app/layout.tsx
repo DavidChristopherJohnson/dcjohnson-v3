@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import MainHeader from '@/components/main-header';
+import MainFooter from "@/components/main-footer";
 
 export const metadata: Metadata = {
   title: "David Christoper Johnson",
@@ -15,10 +16,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <MainHeader />
-        <main className="flex min-h-screen flex-col items-center p-5">
-          {children}
-        </main>
+        <div className="flex flex-col h-screen justify-between">
+          <MainHeader />
+          <div className="flex-grow overflow-scroll">
+            <main className="flex flex-col items-center p-5 mt-14 max-sm:mt-5 w-full">
+              {children}
+            </main>
+          </div>
+          <MainFooter />
+        </div>
       </body>
     </html>
   );

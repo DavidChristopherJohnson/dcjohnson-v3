@@ -7,8 +7,8 @@ export const HeliosXJob: IJob = {
     company: "HeliosX",
     role: "Engineering Manager - Checkout & Subscriptions",
     location: "London (Remote)",
-    dateFrom: setDate('Apr 2023'),
-    dateTo: setDate('Jun 2023'),
+    dateFrom: setDate('Apr 01 2023'),
+    dateTo: setDate('Jun 01 2023'),
     jobInfo: {
         objectives: ["Take over running of the engineering team for flagship products.",
             "Assess the technical skills within the team.",

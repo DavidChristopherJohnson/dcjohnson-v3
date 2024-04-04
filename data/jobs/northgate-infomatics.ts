@@ -8,8 +8,8 @@ export const NorthgateJob: IJob = {
     annotation: "(Now NEC Software)",
     role: "Technical Lead",
     location: "Ossett, West Yorkshire",
-    dateFrom: setDate('Jul 2009'),
-    dateTo: setDate('Apr 2016'),
+    dateFrom: setDate('Jul 01 2009'),
+    dateTo: setDate('Apr 01 2016'),
     jobInfo: {
         objectives: ["Hands-on engineer on the company's flagship resource management product aimed at UK police forces.",
             'Recruitment and interviewing of candidates.'],

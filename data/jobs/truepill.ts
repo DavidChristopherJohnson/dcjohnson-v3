@@ -7,8 +7,8 @@ export const TruepillJob: IJob = {
     company: "Truepill",
     role: "Lead Software Engineer",
     location: "Manchester (Remote)",
-    dateFrom: setDate('Feb 2021'),
-    dateTo: setDate('Jul 2022'),
+    dateFrom: setDate('Feb 01 2021'),
+    dateTo: setDate('Jul 01 2022'),
     jobInfo: {
         objectives: ["Line manage a team of engineers.",
             "Help grow the engineering function via recruitment.",

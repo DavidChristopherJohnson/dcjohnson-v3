@@ -7,8 +7,8 @@ export const BlexrJob: IJob = {
     company: "Blexr",
     role: "Engineering Manager - CasinoReviews.com & Bonuses.com",
     location: "Malta (Remote)",
-    dateFrom: setDate('Jun 2023'),
-    dateTo: setDate('Mar 2024'),
+    dateFrom: setDate('June 01, 2023'),
+    dateTo: setDate('March 01 2024'),
     jobInfo: {
         objectives: ["Line management of two teams of engineers.",
             "Improve ways of working within the engineering teams.",

@@ -7,8 +7,8 @@ export const FlipdishJob: IJob = {
     company: "Flipdish",
     role: "Engineering Manager - Web, iOS Mobile, Android Mobile",
     location: "Dublin (Remote)",
-    dateFrom: setDate('Jul 2022'),
-    dateTo: setDate('Apr 2023'),
+    dateFrom: setDate('Jul 01 2022'),
+    dateTo: setDate('Apr 01 2023'),
     jobInfo: {
         objectives: ["Line management of three engineering teams (web, mobile iOS and mobile Android), on the company's flagship product.",
             "Provide input into the company-wide technology division.",

@@ -31,7 +31,7 @@ const pages = [{
 export default function MainHeader() {
 
 
-    return <header className="bg-black mb-0 pb-0">
+    return <header className="bg-black fixed mb-0 pb-0 w-full">
         <NavBar pages={pages} />
         <MobileNavBar pages={pages} />
     </header>

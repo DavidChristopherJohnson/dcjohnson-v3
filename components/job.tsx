@@ -1,3 +1,4 @@
+'use client'
 import formatDate from "@/utils/format-date";
 import JobInfo from "./job-info";
 import IJob from "@/interfaces/job.interface";
@@ -11,6 +12,8 @@ export default function Job(job: IJob) {
 
         return ""
     }
+
+    console.log(job);
 
     return <>
         <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col" >
