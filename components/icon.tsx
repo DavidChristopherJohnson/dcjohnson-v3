@@ -1,7 +1,8 @@
+import IImage from "@/interfaces/image.interface";
 import Image, {StaticImageData} from "next/image";
 
-export default function Icon({ image, alt="" }: { image: StaticImageData, alt: string }) {
+export default function Icon(props: IImage) {
     return <div>
-        <Image className="w-5 h-auto" src={image} alt={alt} />
+        <Image className="w-5 h-auto" {...props} />
     </div>
 }

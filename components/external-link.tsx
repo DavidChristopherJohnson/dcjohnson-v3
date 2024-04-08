@@ -8,7 +8,7 @@ export default function ExternalLink({ title, link, image, imageAlt = "" }: IExt
         if (!icoImage)
             return ""
 
-        return <Icon image={icoImage as StaticImageData} alt={icoAlt} />
+        return <Icon src={icoImage as StaticImageData} alt={icoAlt} />
     }
 
     return <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-row" >

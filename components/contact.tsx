@@ -30,7 +30,7 @@ export default function ContactDetails() {
                         <h3>Phone:</h3>
                     </div>
                     <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-row" >
-                        <Icon image={PhoneSvg} alt='Phone symbol' />
+                        <Icon src={PhoneSvg} alt='Phone symbol' />
                         <span className='pl-1'>
                             On request
                         </span>
