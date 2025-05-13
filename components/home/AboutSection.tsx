@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Avatar from '@/assets/Avatar.jpg';
+import Avatar from '@/assets/Avatar_No_Background.png';
 
 export default function AboutSection() {
   return (
@@ -26,11 +26,11 @@ export default function AboutSection() {
           </div>
           
           <div className="w-full md:w-2/5 mt-6 md:mt-0">
-            <div className="rounded-lg overflow-hidden bg-gray-900">
+            <div className="rounded-lg overflow-hidden">
               <Image 
                 src={Avatar} 
                 alt="David Johnson" 
-                className="w-full h-auto object-cover"
+                className="w-full h-auto"
                 priority
               />
             </div>

@@ -90,4 +90,25 @@ describe('RotatingTagline', () => {
     // Should cycle back to the first tagline
     expect(screen.getByText('First Tagline')).toBeInTheDocument();
   });
+
+  it('applies the correct styling classes', () => {
+    const taglines = ['Test Tagline'];
+    const { container } = render(<RotatingTagline taglines={taglines} />);
+    
+    // Find the div that contains the tagline background 
+    // (the first div is the container, the second div is the one with bg classes)
+    const outerDiv = container.firstChild;
+    const taglineWrapper = outerDiv.firstChild;
+    
+    // Check for the key styling classes
+    const taglineWrapperClasses = taglineWrapper.className;
+    expect(taglineWrapperClasses).toContain('bg-black');
+    expect(taglineWrapperClasses).toContain('bg-opacity-5');
+    expect(taglineWrapperClasses).toContain('rounded-full');
+    expect(taglineWrapperClasses).toContain('backdrop-blur-sm');
+    
+    // Check that the text has the correct styling
+    const taglineText = screen.getByText('Test Tagline');
+    expect(taglineText.className).toContain('text-gray-200');
+  });
 }); 
