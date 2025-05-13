@@ -29,9 +29,7 @@ const pages = [{
 ]
 
 export default function MainHeader() {
-
-
-    return <header className="bg-black fixed mb-0 pb-0 w-full">
+    return <header className="bg-black fixed top-0 left-0 right-0 w-full z-50">
         <NavBar pages={pages} />
         <MobileNavBar pages={pages} />
     </header>

@@ -4,7 +4,7 @@ import MainHeader from '@/components/main-header';
 import MainFooter from "@/components/main-footer";
 
 export const metadata: Metadata = {
-  title: "David Christoper Johnson",
+  title: "David Christopher Johnson",
   description: "The personal web site of David Johnson - Engineering Leader & Technologist",
 };
 
@@ -16,10 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex flex-col h-screen justify-between">
+        <div className="flex flex-col min-h-screen justify-between">
           <MainHeader />
-          <div className="flex-grow overflow-scroll">
-            <main className="flex flex-col items-center p-5 mt-14 max-sm:mt-5 w-full">
+          <div className="flex-grow">
+            <main className="flex flex-col items-center w-full">
               {children}
             </main>
           </div>

@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+never run the software in dev or production mode (unless specifically requested to). Instead highlight with some form of emoji that I should test the issue manually using my open terminal, which may or may not be already running.
+
+If absolutely nessasary request if you should run pnpm dev

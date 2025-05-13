@@ -13,18 +13,18 @@ export default function MobileNavBar({ pages }: INavigationBarProps) {
         setShowMenu(!showMenu);
     }
 
-    return <nav className="sm:hidden">
-        <div className="flex">
-            <div className="text-white text-3xl grow">D. C. Johnson</div>
-            <button className="text-white mr-2" onClick={toggleShowMenu}>
-                <div className="space-y-2">
-                    <div className="w-8 h-0.5 bg-gray-600"></div>
-                    <div className="w-8 h-0.5 bg-gray-600"></div>
-                    <div className="w-8 h-0.5 bg-gray-600"></div>
+    return <nav className="sm:hidden bg-black p-4">
+        <div className="flex items-center justify-between">
+            <div className="text-white text-xl font-semibold">D. C. Johnson</div>
+            <button className="text-white p-2 rounded-md hover:bg-white/10 transition-colors" onClick={toggleShowMenu}>
+                <div className="space-y-1.5">
+                    <div className="w-6 h-0.5 bg-white"></div>
+                    <div className="w-6 h-0.5 bg-white"></div>
+                    <div className="w-6 h-0.5 bg-white"></div>
                 </div>
             </button>
         </div>
-        <div className={isHidden}>
+        <div className={`mt-4 p-2 bg-black/90 rounded-md backdrop-blur-sm ${isHidden}`}>
             <NavBarList pages={pages} />
         </div>
     </nav>
