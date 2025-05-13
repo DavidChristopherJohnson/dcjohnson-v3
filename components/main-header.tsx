@@ -3,7 +3,7 @@ import NavBar from "./nav-bar";
 import MobileNavBar from "./nav-bar-mobile";
 
 const pages = [{
-    href: '/',
+    href: '/about',
     uniqueKey: 'about-me',
     text: 'About Me',
     visible: true

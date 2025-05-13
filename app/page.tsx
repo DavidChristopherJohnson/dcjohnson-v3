@@ -94,7 +94,7 @@ export default function Home() {
             );
             
             // Check if too far apart
-            if (distance > 150) {
+            if (distance > 250) {
               // Simply remove connection
               this.connections = this.connections.filter(p => p !== particle);
               this.connectionTimers.delete(particle);
@@ -108,7 +108,7 @@ export default function Home() {
             }
             
             // Draw line with glow effect
-            const alpha = connectionData.alpha * (1 - (distance / 150));
+            const alpha = connectionData.alpha * (1 - (distance / 250));
             ctx.strokeStyle = `rgba(255, 255, 255, ${alpha})`;
             ctx.lineWidth = 1;
             ctx.beginPath();
@@ -159,7 +159,7 @@ export default function Home() {
           );
           
           // If close enough and not already connected
-          if (distance < 100 && !particle.connections.includes(otherParticle)) {
+          if (distance < 200 && !particle.connections.includes(otherParticle)) {
             // 1% chance to connect when close
             if (Math.random() < 0.01) {
               particle.connections.push(otherParticle);
@@ -253,6 +253,12 @@ export default function Home() {
                 </div>
                 <span className="text-gray-500">2015 - 2017</span>
               </div>
+            </div>
+            
+            <div className="mt-8">
+              <Link href="/about" className="text-blue-600 hover:text-blue-800 font-medium underline">
+                Learn more about me
+              </Link>
             </div>
           </div>
         </div>
