@@ -4,49 +4,36 @@ import Avatar from '@/assets/Avatar.jpg';
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 px-4 w-full max-w-6xl bg-white">
-      <h2 className="text-4xl font-bold text-[#0A2540] mb-12">About</h2>
-      
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-        <div className="w-48 h-48 rounded-full overflow-hidden bg-gray-300 flex-shrink-0">
-          <Image 
-            src={Avatar} 
-            alt="David Johnson" 
-            className="w-full h-full object-cover"
-            priority
-          />
-        </div>
+    <section id="about" className="py-16 px-4 w-full bg-black text-white">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-medium text-gray-400 mb-8">Who I Am</h2>
         
-        <div>
-          <p className="text-lg mb-8">
-            I&apos;m an experienced Software Engineer and Product Builder based in London, specializing in building high-performance 
-            systems and innovative products. Passionate about creating technology that solves real-world problems.
-          </p>
-          
-          <div className="space-y-4">
-            <WorkExperience 
-              title="Senior Software Engineer"
-              company="Tech Innovation Inc."
-              period="2020 - Present"
-            />
+        <div className="flex flex-col md:flex-row items-start gap-8">
+          <div className="w-full md:w-3/5">
+            <h3 className="text-4xl md:text-5xl font-bold mb-8">
+              I&apos;m a software engineer and product builder based in the UK. I work with founders and start-ups to take ideas from pitch deck to working product.
+            </h3>
             
-            <WorkExperience 
-              title="Lead Product Developer"
-              company="Digital Creators Ltd."
-              period="2017 - 2020"
-            />
-            
-            <WorkExperience 
-              title="Software Developer"
-              company="Tech Solutions Group"
-              period="2015 - 2017"
-            />
+            <div className="space-y-6">
+              <p className="text-lg md:text-xl">
+                I&apos;ve led teams, built scalable platforms, and helped early-stage companies get to market fast. I care about building the right thing, not just shipping code.
+              </p>
+              
+              <p className="text-lg md:text-xl">
+                If you&apos;ve got the vision but need someone to execute, that&apos;s where I come in.
+              </p>
+            </div>
           </div>
           
-          <div className="mt-8">
-            <Link href="/about" className="text-blue-600 hover:text-blue-800 font-medium underline">
-              Learn more about me
-            </Link>
+          <div className="w-full md:w-2/5 mt-6 md:mt-0">
+            <div className="rounded-lg overflow-hidden bg-gray-900">
+              <Image 
+                src={Avatar} 
+                alt="David Johnson" 
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>

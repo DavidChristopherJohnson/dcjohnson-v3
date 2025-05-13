@@ -9,13 +9,22 @@ jest.mock('@/components/home/ParticleCanvas', () => {
   };
 });
 
+// Mock the RotatingTagline component
+jest.mock('@/components/home/RotatingTagline', () => {
+  return function MockRotatingTagline({ taglines }: { taglines: string[] }) {
+    return <div data-testid="rotating-tagline">{taglines[0]}</div>;
+  };
+});
+
 describe('HeroSection', () => {
   it('renders correctly', () => {
     render(<HeroSection />);
 
-    // Check that main heading and subheading are present
+    // Check that main heading is present
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('David Johnson');
-    expect(screen.getByRole('heading', { level: 2 })).toHaveTextContent('Software Engineer. Product Builder.');
+    
+    // Check that rotating tagline component is rendered
+    expect(screen.getByTestId('rotating-tagline')).toBeInTheDocument();
     
     // Check that links to important pages are present
     expect(screen.getByText('Explore My Work')).toBeInTheDocument();

@@ -20,6 +20,13 @@ const mockRemoveEventListener = jest.fn();
 const mockRequestAnimationFrame = jest.fn(callback => 123);
 const mockCancelAnimationFrame = jest.fn();
 
+// Mock the RotatingTagline component
+jest.mock('@/components/home/RotatingTagline', () => {
+  return function MockRotatingTagline({ taglines }: { taglines: string[] }) {
+    return <div data-testid="rotating-tagline">{taglines[0]}</div>;
+  };
+});
+
 describe('HeroSection Integration', () => {
   beforeEach(() => {
     // Setup HTML5 canvas mock
@@ -54,7 +61,7 @@ describe('HeroSection Integration', () => {
     
     // Verify the HeroSection content is rendered
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('David Johnson');
-    expect(screen.getByRole('heading', { level: 2 })).toHaveTextContent('Software Engineer. Product Builder.');
+    expect(screen.getByTestId('rotating-tagline')).toBeInTheDocument();
     
     // Verify the canvas is rendered
     const canvas = screen.getByTestId('particle-canvas');
