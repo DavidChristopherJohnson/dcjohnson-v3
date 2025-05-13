@@ -2,6 +2,7 @@
   "name": "dcjohnson-v3",
   "version": "0.1.0",
   "private": true,
+  "packages": ["."],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
