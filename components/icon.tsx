@@ -3,6 +3,6 @@ import Image, {StaticImageData} from "next/image";
 
 export default function Icon(props: IImage) {
     return <div>
-        <Image className="w-5 h-auto" {...props} />
+        <Image className="w-5 h-auto" {...props} alt={props.alt || ""} />
     </div>
 }

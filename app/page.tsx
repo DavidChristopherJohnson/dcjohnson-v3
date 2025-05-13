@@ -225,7 +225,7 @@ export default function Home() {
           
           <div>
             <p className="text-lg mb-8">
-              I'm an experienced Software Engineer and Product Builder based in London, specializing in building high-performance 
+              I&apos;m an experienced Software Engineer and Product Builder based in London, specializing in building high-performance 
               systems and innovative products. Passionate about creating technology that solves real-world problems.
             </p>
             
