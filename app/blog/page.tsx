@@ -16,12 +16,12 @@ export default function BlogPage() {
     const sortedBlogs = [...Blogs].sort((a, b) => b.date.getTime() - a.date.getTime());
 
     return (
-        <div className="w-full min-h-screen text-white bg-[linear-gradient(to_bottom,_black_0%,_black_5%,_#02020A_15%,_#030318_25%,_#030320_35%,_#040935_45%,_#040935_100%)] bg-fixed">
+        <div className="w-full min-h-screen text-white">
             {/* Hero Section */}
-            <div className="py-12 px-4 sm:px-6 md:py-24">
+            <div className="py-5 px-4 sm:px-6 md:py-10">
                 <div className="max-w-6xl mx-auto">
-                    <h1 className="text-6xl font-header font-bold mb-6">Blog</h1>
-                    <p className="text-2xl mb-12 max-w-3xl">
+                    <h1 className="text-6xl font-header font-bold mb-4">Blog</h1>
+                    <p className="text-2xl mb-5 max-w-3xl">
                         Thoughts on tech, leadership, and the journey of building products.
                     </p>
 
@@ -46,14 +46,14 @@ export default function BlogPage() {
             <div 
                 ref={latestPostsRef} 
                 id="latest-posts" 
-                className="max-w-6xl mx-auto py-16 px-4 sm:px-6"
+                className="max-w-6xl mx-auto py-6 px-4 sm:px-6"
             >
-                <h2 className="text-4xl font-bold mb-12">Latest Posts</h2>
+                <h2 className="text-4xl font-bold mb-5">Latest Posts</h2>
                 
                 {/* Featured blog posts (top 3) */}
-                <div className="space-y-16">
+                <div className="space-y-6">
                     {sortedBlogs.slice(0, 3).map((blog) => (
-                        <article key={blog.uniqueId} className="mb-16">
+                        <article key={blog.uniqueId} className="mb-6">
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                                 <div className="md:col-span-1">
                                     <Link href={blog.url} className="block">
@@ -78,18 +78,18 @@ export default function BlogPage() {
                                 </div>
                                 <div className="md:col-span-3">
                                     <Link href={blog.url}>
-                                        <h2 className="text-3xl font-bold text-white mb-4 hover:text-blue-400 transition-colors">
+                                        <h2 className="text-3xl font-bold text-white mb-3 hover:text-blue-400 transition-colors">
                                             {blog.title}
                                         </h2>
                                     </Link>
-                                    <div className="text-gray-400 mb-3">
+                                    <div className="text-gray-400 mb-2">
                                         {blog.date.toLocaleDateString('en-US', { 
                                             year: 'numeric', 
                                             month: 'long', 
                                             day: 'numeric' 
                                         })}
                                     </div>
-                                    <p className="text-gray-300 mb-4">
+                                    <p className="text-gray-300 mb-3">
                                         {blog.description}
                                     </p>
                                     <Link 
@@ -109,8 +109,8 @@ export default function BlogPage() {
             </div>
 
             {/* All Blog Posts */}
-            <div id="all-posts" className="max-w-6xl mx-auto py-16 px-4 sm:px-6">
-                <h2 className="text-4xl font-bold mb-12">All Posts</h2>
+            <div id="all-posts" className="max-w-6xl mx-auto py-6 px-4 sm:px-6">
+                <h2 className="text-4xl font-bold mb-5">All Posts</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {sortedBlogs.map((blog) => (

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import MainHeader from '@/components/main-header';
 import MainFooter from "@/components/main-footer";
+import LayoutWrapper from "@/components/layout-wrapper";
 
 export const metadata: Metadata = {
   title: "David Christopher Johnson",
@@ -20,7 +21,9 @@ export default function RootLayout({
           <MainHeader />
           <div className="flex-grow">
             <main className="flex flex-col items-center w-full">
-              {children}
+              <LayoutWrapper>
+                {children}
+              </LayoutWrapper>
             </main>
           </div>
           <MainFooter />

@@ -4,17 +4,17 @@ import Avatar from '@/assets/Avatar_No_Background.png';
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 px-4 w-full bg-black text-white">
+    <section id="about" className="py-10 px-4 w-full bg-black text-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-medium text-gray-400 mb-8">Who I Am</h2>
+        <h2 className="text-3xl md:text-4xl font-medium text-gray-400 mb-6">Who I Am</h2>
         
-        <div className="flex flex-col md:flex-row items-start gap-8">
+        <div className="flex flex-col md:flex-row items-start gap-6">
           <div className="w-full md:w-3/5">
-            <h3 className="text-4xl md:text-5xl font-bold mb-8">
+            <h3 className="text-4xl md:text-5xl font-bold mb-6">
               I&apos;m a software engineer and product builder based in the UK. I work with founders and start-ups to take ideas from pitch deck to working product.
             </h3>
             
-            <div className="space-y-6">
+            <div className="space-y-4">
               <p className="text-lg md:text-xl">
                 I&apos;ve led teams, built scalable platforms, and helped early-stage companies get to market fast. I care about building the right thing, not just shipping code.
               </p>
@@ -25,7 +25,7 @@ export default function AboutSection() {
             </div>
           </div>
           
-          <div className="w-full md:w-2/5 mt-6 md:mt-0">
+          <div className="w-full md:w-2/5 mt-4 md:mt-0">
             <div className="rounded-lg overflow-hidden">
               <Image 
                 src={Avatar} 
