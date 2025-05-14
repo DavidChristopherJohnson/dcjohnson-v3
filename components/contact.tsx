@@ -1,8 +1,8 @@
 import ExternalLink from "./external-link";
 import LinkedInIcon from '@/assets/LI-In-Bug.png';
-import Gmail from '@/assets/Gmail.png';
 import PhoneSvg from '@/assets/phone.svg';
 import Icon from "./icon";
+import { Mail } from "lucide-react";
 
 export default function ContactDetails() {
     return <>
@@ -15,7 +15,12 @@ export default function ContactDetails() {
                     <div className="min-w-28 max-sm:hidden">
                         <h3>Email:</h3>
                     </div>
-                    <ExternalLink link='mailto:dcjohnson85@gmail.com' title="dcjohnson85@gmail.com" image={Gmail} imageAlt="Google mail icon" />
+                    <div className="flex items-center">
+                        <a href="mailto:d.johnson@yorkshiresoftwaresolutions.co.uk" className="flex items-center hover:underline text-blue-600 dark:text-blue-400">
+                            <Mail className="w-5 h-5 mr-2" />
+                            d.johnson@yorkshiresoftwaresolutions.co.uk
+                        </a>
+                    </div>
                 </div>
                 <div className="w-full max-w-7xl pl-5 flex flex-grow-1 max-sm:flex-col" >
                     <div className="min-w-28 max-sm:hidden">
