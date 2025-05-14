@@ -18,10 +18,10 @@ export default function BlogPage() {
     return (
         <div className="w-full min-h-screen text-white">
             {/* Hero Section */}
-            <div className="py-5 px-4 sm:px-6 md:py-10">
+            <div className="py-12 px-4 sm:px-6 md:py-24 pb-6 md:pb-12">
                 <div className="max-w-6xl mx-auto">
-                    <h1 className="text-6xl font-header font-bold mb-4">Blog</h1>
-                    <p className="text-2xl mb-5 max-w-3xl">
+                    <h1 className="text-6xl font-header font-bold mb-6">Blog</h1>
+                    <p className="text-2xl mb-12 max-w-3xl">
                         Thoughts on tech, leadership, and the journey of building products.
                     </p>
 
@@ -34,7 +34,7 @@ export default function BlogPage() {
                         </button>
                         <Link 
                             href="#all-posts" 
-                            className="text-white hover:text-blue-400 transition-colors duration-300 text-lg"
+                            className="border border-white/30 px-6 py-3 rounded-md text-white hover:text-blue-400 hover:border-blue-400 transition-colors duration-300 text-lg"
                         >
                             View All Posts
                         </Link>
@@ -46,14 +46,14 @@ export default function BlogPage() {
             <div 
                 ref={latestPostsRef} 
                 id="latest-posts" 
-                className="max-w-6xl mx-auto py-6 px-4 sm:px-6"
+                className="max-w-6xl mx-auto py-16 px-4 sm:px-6 pt-8 md:pt-8 pb-8"
             >
-                <h2 className="text-4xl font-bold mb-5">Latest Posts</h2>
+                <h2 className="text-4xl font-bold mb-12">Latest Posts</h2>
                 
                 {/* Featured blog posts (top 3) */}
-                <div className="space-y-6">
+                <div className="space-y-16">
                     {sortedBlogs.slice(0, 3).map((blog) => (
-                        <article key={blog.uniqueId} className="mb-6">
+                        <article key={blog.uniqueId} className="mb-16 border border-white/10 rounded-lg p-6 md:p-8 transition-colors duration-300 hover:border-blue-500/60 hover:shadow-md">
                             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                                 <div className="md:col-span-1">
                                     <Link href={blog.url} className="block">
@@ -78,18 +78,18 @@ export default function BlogPage() {
                                 </div>
                                 <div className="md:col-span-3">
                                     <Link href={blog.url}>
-                                        <h2 className="text-3xl font-bold text-white mb-3 hover:text-blue-400 transition-colors">
+                                        <h2 className="text-3xl font-bold text-white mb-4 hover:text-blue-400 transition-colors">
                                             {blog.title}
                                         </h2>
                                     </Link>
-                                    <div className="text-gray-400 mb-2">
+                                    <div className="text-gray-400 mb-3">
                                         {blog.date.toLocaleDateString('en-US', { 
                                             year: 'numeric', 
                                             month: 'long', 
                                             day: 'numeric' 
                                         })}
                                     </div>
-                                    <p className="text-gray-300 mb-3">
+                                    <p className="text-gray-300 mb-4">
                                         {blog.description}
                                     </p>
                                     <Link 
@@ -109,8 +109,8 @@ export default function BlogPage() {
             </div>
 
             {/* All Blog Posts */}
-            <div id="all-posts" className="max-w-6xl mx-auto py-6 px-4 sm:px-6">
-                <h2 className="text-4xl font-bold mb-5">All Posts</h2>
+            <div id="all-posts" className="max-w-6xl mx-auto py-16 px-4 sm:px-6 pt-8">
+                <h2 className="text-4xl font-bold mb-12">All Posts</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {sortedBlogs.map((blog) => (

@@ -17,7 +17,7 @@ if (today.getMonth() < dobMonth || (today.getMonth() === dobMonth && today.getDa
 
 export default function Home() {
   return (
-    <>
+    <div className="pt-24 md:pt-28 px-4 sm:px-6 max-w-6xl mx-auto">
       <h1>About Me</h1>
       <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col" >
         <div className="sm:min-w-80  max-sm:max-w-60 max-sm:self-center">
@@ -121,6 +121,6 @@ export default function Home() {
           </div>
         </div>
       </div >
-    </>
+    </div>
   );
 }

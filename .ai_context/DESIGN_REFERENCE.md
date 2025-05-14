@@ -78,6 +78,54 @@
 </section>
 ```
 
+### Blog Page Styling Guidelines
+
+The blog follows a cohesive card-based design pattern with these specific characteristics:
+
+#### Whitespace Management
+- **Section Vertical Spacing**: 
+  - Hero to Featured Posts: Original `py-16` reduced by 50%
+  - Featured Posts to All Posts: Original `py-16` reduced by 50%
+  - Implementation: `py-16 pt-8 pb-8` to reduce vertical whitespace while maintaining proper spacing within sections
+
+#### Card & Border Styling
+- **Card Borders**: All content cards (featured and standard) use a consistent border style
+  ```jsx
+  // Standard content card border
+  <div className="border border-white/10 rounded-lg p-6 md:p-8 transition-colors duration-300 hover:border-blue-500/60 hover:shadow-md">
+    {/* Card content */}
+  </div>
+  ```
+
+- **Featured Post Cards**: 
+  - Grid-based layout with larger display 
+  - Same border styling as standard cards
+
+- **Secondary CTA Styling**:
+  - Text links and secondary actions use border styling to create button-like appearance
+  ```jsx
+  <Link 
+    href="#all-posts" 
+    className="border border-white/30 px-6 py-3 rounded-md text-white hover:text-blue-400 hover:border-blue-400 transition-colors duration-300 text-lg"
+  >
+    View All Posts
+  </Link>
+  ```
+
+#### Blog Content Layout
+- **Featured Posts**: 
+  - Use a 1:3 grid layout on larger screens `grid-cols-1 md:grid-cols-4 gap-8`
+  - Square thumbnail image on left (1 column)
+  - Content on right (3 columns)
+
+- **Blog Grid**: 
+  - Responsive grid: `grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8`
+  - Each card maintains consistent padding: `p-6 md:p-8`
+
+- **Hover Effects**:
+  - Cards: Border color change and subtle shadow: `hover:border-blue-500/60 hover:shadow-md`
+  - CTAs: Text and border color change: `hover:text-blue-400 hover:border-blue-400`
+
 ### Animation Guidelines
 - Use subtle transitions (300-500ms duration)
 - Prefer opacity, transform, and box-shadow transitions
