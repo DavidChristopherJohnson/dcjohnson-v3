@@ -26,6 +26,12 @@ const pages = [{
     uniqueKey: 'articles',
     visible: false
 },
+{
+    href: '/blog',
+    text: 'Blog',
+    uniqueKey: 'blog',
+    visible: true
+},
 ]
 
 export default function MainHeader() {
