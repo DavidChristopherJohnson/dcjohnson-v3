@@ -44,7 +44,7 @@ export default function BlogPost(props: { params: Promise<{ id: string }> }) {
 
     return (
         <div className="w-full min-h-screen text-white">
-            <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 pt-24 md:pt-28">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-24 md:pt-28">
                 <div className="mb-8">
                     <Link href="/blog" className="text-blue-400 hover:underline inline-block">
                         ← Back to blogs

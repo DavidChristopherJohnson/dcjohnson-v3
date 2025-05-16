@@ -9,9 +9,9 @@ import CvDownloadButton from '@/components/cv-download-button';
 
 export default function CvPage() {
     return <div id='to-print' className="pt-24 md:pt-28 px-4 sm:px-6 max-w-6xl mx-auto">
-        <h1>Curriculum Vitae</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Curriculum Vitae</h1>
 
-        <div className="w-full mt-1 flex" >
+        <div className="w-full mt-4 flex" >
             <CvDownloadButton />
         </div>
         <div className="w-full mt-2 max-w-7xl flex flex-grow-1 flex-col pb-5" >

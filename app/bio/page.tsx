@@ -18,10 +18,10 @@ if (today.getMonth() < dobMonth || (today.getMonth() === dobMonth && today.getDa
 export default function Bio() {
   return (
     <div className="w-full min-h-screen text-white">
-      <div className="py-12 px-4 sm:px-6 md:py-24 pb-6 md:pb-12">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-6xl font-header font-bold mb-6">Bio</h1>
-          <p className="text-2xl mb-12 max-w-3xl text-gray-300">
+      <div className="pt-24 md:pt-28 px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto mb-16">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Bio</h1>
+          <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl">
             A technologist, leader, mentor, husband and father based in Dewsbury, United Kingdom.
           </p>
         </div>
