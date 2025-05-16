@@ -19,14 +19,14 @@ export default function BlogPage() {
     return (
         <div className="w-full min-h-screen text-white">
             {/* Hero Section */}
-            <div className="py-12 px-4 sm:px-6 md:py-24 pb-6 md:pb-12">
-                <div className="max-w-6xl mx-auto">
-                    <h1 className="text-6xl font-header font-bold mb-6">Blog</h1>
-                    <p className="text-2xl mb-12 max-w-3xl">
+            <div className="pt-24 md:pt-28 px-4 sm:px-6">
+                <div className="max-w-6xl mx-auto mb-16">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4">Blog</h1>
+                    <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl">
                         Thoughts on tech, leadership, and the journey of building products.
                     </p>
 
-                    <div className="flex flex-wrap items-center gap-6">
+                    <div className="flex flex-wrap items-center gap-6 mt-8">
                         <button 
                             onClick={scrollToLatestPosts}
                             className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-md transition-all duration-300 text-lg font-medium"

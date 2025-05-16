@@ -1,12 +1,16 @@
 import Pill from "./pill";
 
 export default function PillList({ title, values }: { title: string, values: Array<string> }) {
+    if (!values || values.length === 0) return null;
+    
     return (
-        <>
-            <h2>{title}</h2>
-            <ul className="list-disc list-inside pl-5 max-sm:pb-2 flex flex-row flex-wrap">
-                {values.map((value, idx) => <div key={idx}><Pill text={value} /></div>)}
-            </ul>
-        </>
-    )
+        <div className="mb-4">
+            <h3 className="text-xl font-semibold text-white mb-3">{title}</h3>
+            <div className="flex flex-wrap gap-2">
+                {values.map((value, idx) => (
+                    <Pill key={`${title}-${idx}`} text={value} />
+                ))}
+            </div>
+        </div>
+    );
 }

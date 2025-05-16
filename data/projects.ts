@@ -2,6 +2,16 @@ import IProject from "@/interfaces/project.interface";
 
 const projects: Array<IProject> = [
   {
+    id: "bombe-io",
+    title: "Bombe.Io",
+    description: "As Engineering Manager, I led the successful release of Bombe's flagship product and continue to drive the development roadmap. The platform leverages advanced statistical models created by top data scientists to provide actionable customer insights. Built a scalable system that helps businesses understand customer motivations, preferences, and behaviors through intuitive data visualization and AI-powered analytics.",
+    link: "https://bombe.io",
+    technologies: ["Python", "TensorFlow", "React", "AWS", "Data Visualization", "Machine Learning", "NLP", "Big Data"],
+    icon: "brain",
+    year: "2022-present",
+    companyName: "Bombe"
+  },
+  {
     id: "cost-plus-drugs",
     title: "Mark Cuban Cost Plus Drugs",
     description: "Led the development of an online pharmacy platform that serves over 2 million weekly visitors. Built with Next.js, Node.js, and NestJS, the platform provides affordable prescription medications by cutting out middlemen. Implemented a robust infrastructure that scales with high traffic and maintains strict regulatory compliance.",

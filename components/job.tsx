@@ -4,27 +4,18 @@ import JobInfo from "./job-info";
 import IJob from "@/interfaces/job.interface";
 
 export default function Job(job: IJob) {
-
-    const Annotation = ({annotation}:{annotation: string | undefined}) => {
-        if(annotation) {
-            return <h2>{annotation}</h2>
-        }
-
-        return ""
-    }
-
-    return <>
-        <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col" >
-            <div className="min-w-80 max-sm:pb-2">
-                <h3>{job.company}</h3>
-                <Annotation annotation={job.annotation} />
-                <h4>{job.role}</h4>                
-                <h4>{job.location}</h4>
-                <h4>{formatDate(job.dateFrom)} - {formatDate(job.dateTo)}</h4>
+    return (
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="md:col-span-1">
+                <h3 className="text-2xl font-bold text-white mb-2">{job.company}</h3>
+                {job.annotation && <div className="text-blue-400 mb-2">{job.annotation}</div>}
+                <div className="text-xl font-semibold text-gray-300 mb-1">{job.role}</div>
+                <div className="text-gray-400 mb-1">{job.location}</div>
+                <div className="text-gray-400 mb-4">{formatDate(job.dateFrom)} - {formatDate(job.dateTo)}</div>
             </div>
-            <div>
+            <div className="md:col-span-3">
                 <JobInfo {...job.jobInfo} />
             </div>
         </div>
-    </>
+    );
 }

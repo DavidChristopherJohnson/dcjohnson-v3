@@ -1,10 +1,14 @@
 export default function JobSection({ title, items }: { title: string, items: Array<String> }) {
-    if(!items.length) return;
+    if (!items || items.length === 0) return null;
 
-    return <>
-        <h2>{title}</h2>
-        <div className="list-disc list-inside pl-5 pb-2" >
-            {items.map((item, index) => <li key={title + '-' + index.toString()}>{item}</li>)}
+    return (
+        <div className="mb-4">
+            <h3 className="text-xl font-semibold text-white mb-3">{title}</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                {items.map((item, index) => (
+                    <li key={`${title}-${index}`} className="pl-1">{item}</li>
+                ))}
+            </ul>
         </div>
-    </>
+    );
 }
