@@ -40,6 +40,11 @@ export default function BlogPost({ params }: { params: { id: string } }) {
         notFound();
     }
     
+    // Debug logging to check image source
+    console.log('Blog image src:', blog.image.src);
+    console.log('Blog image alt:', blog.image.alt);
+    console.log('Blog image fallbackSrc:', blog.image.fallbackSrc);
+    
     return (
         <div className="w-full min-h-screen text-white">
             <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 pt-24 md:pt-28">
@@ -64,6 +69,7 @@ export default function BlogPost({ params }: { params: { id: string } }) {
                         <OptimizedImage 
                             src={blog.image.src}
                             alt={blog.image.alt || blog.title} 
+                            fallbackSrc={blog.image.fallbackSrc}
                             fill
                             priority
                             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 80vw, 800px"

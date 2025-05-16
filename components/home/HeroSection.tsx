@@ -43,7 +43,7 @@ export default function HeroSection() {
           <Link href="/cv" className="bg-[#0051E6] hover:bg-[#0051E6]/90 text-white px-6 py-3 rounded-md text-lg transition-all duration-300">
             Explore My Work
           </Link>
-          <Link href="/articles" className="border border-white text-white hover:bg-white/10 px-6 py-3 rounded-md text-lg transition-all duration-300">
+          <Link href="/blog" className="border border-white text-white hover:bg-white/10 px-6 py-3 rounded-md text-lg transition-all duration-300">
             Read My Blog
           </Link>
         </div>
