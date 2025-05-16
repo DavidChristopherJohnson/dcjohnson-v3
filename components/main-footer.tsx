@@ -28,8 +28,11 @@ export default function MainFooter() {
                             <Link href="/" className={`${textColorClass} ${hoverColorClass} transition-colors duration-300`}>
                                 Home
                             </Link>
-                            <Link href="/about" className={`${textColorClass} ${hoverColorClass} transition-colors duration-300`}>
-                                About
+                            <Link href="/bio" className={`${textColorClass} ${hoverColorClass} transition-colors duration-300`}>
+                                Bio
+                            </Link>
+                            <Link href="/projects" className={`${textColorClass} ${hoverColorClass} transition-colors duration-300`}>
+                                Projects
                             </Link>
                             <Link href="/blog" className={`${textColorClass} ${hoverColorClass} transition-colors duration-300`}>
                                 Blog

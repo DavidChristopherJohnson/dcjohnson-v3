@@ -3,9 +3,15 @@ import NavBar from "./nav-bar";
 import MobileNavBar from "./nav-bar-mobile";
 
 const pages = [{
-    href: '/about',
-    uniqueKey: 'about-me',
-    text: 'About Me',
+    href: '/bio',
+    uniqueKey: 'bio',
+    text: 'Bio',
+    visible: true
+},
+{
+    href: '/projects',
+    uniqueKey: 'projects',
+    text: 'Projects',
     visible: true
 },
 {
