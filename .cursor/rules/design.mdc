@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Whenever I ask you to do anything related to designs, or I reference the designs of the project, read the files in the .ai_context folder:
+
+- DESIGN_REFERENCE.md - Design information and instructions
+- homepage-wireframe.png - Mock up example of web site, to be used as a reference for style (and not for text copy)

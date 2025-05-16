@@ -1,22 +1,32 @@
 import { INavigationListItem } from "@/interfaces/navigation-list.interface";
 
 export default function NavBarLink({ href, text }: { href: string, text: string }) {
-    return <a href={href} className="block 
+    return <a href={href} className="
+            inline-block
+            font-medium
             py-2 
-            px-3 
-            text-gray-900 
-            rounded 
-            hover:bg-gray-100 
-            md:hover:bg-transparent 
-            md:border-0 
-            md:hover:text-blue-700 
-            md:p-0 
-            dark:text-white 
-            md:dark:hover:text-blue-500 
-            dark:hover:bg-gray-900 
-            dark:hover:text-white 
-            mt-0
-            mr-4"
+            px-4
+            mx-2
+            text-white
+            rounded-md
+            border border-transparent
+            transition-all duration-300
+            hover:border-white/30
+            hover:bg-white/10
+            hover:text-blue-400
+            relative
+            after:content-['']
+            after:absolute
+            after:w-0
+            after:h-[2px]
+            after:bg-blue-400
+            after:left-1/2
+            after:-translate-x-1/2
+            after:bottom-0
+            after:transition-all
+            after:duration-300
+            hover:after:w-3/4
+          "
     >
         {text}
     </a>

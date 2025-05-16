@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+When creating code, try to break it into small testable functions, and generate said tests at the time of development.

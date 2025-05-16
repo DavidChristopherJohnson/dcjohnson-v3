@@ -8,7 +8,7 @@ import ContactDetails from '@/components/contact';
 import CvDownloadButton from '@/components/cv-download-button';
 
 export default function CvPage() {
-    return <div id='to-print' >
+    return <div id='to-print' className="pt-24 md:pt-28 px-4 sm:px-6 max-w-6xl mx-auto">
         <h1>Curriculum Vitae</h1>
 
         <div className="w-full mt-1 flex" >

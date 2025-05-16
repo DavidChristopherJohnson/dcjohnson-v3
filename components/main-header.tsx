@@ -3,7 +3,7 @@ import NavBar from "./nav-bar";
 import MobileNavBar from "./nav-bar-mobile";
 
 const pages = [{
-    href: '/',
+    href: '/about',
     uniqueKey: 'about-me',
     text: 'About Me',
     visible: true
@@ -26,12 +26,16 @@ const pages = [{
     uniqueKey: 'articles',
     visible: false
 },
+{
+    href: '/blog',
+    text: 'Blog',
+    uniqueKey: 'blog',
+    visible: true
+},
 ]
 
 export default function MainHeader() {
-
-
-    return <header className="bg-black fixed mb-0 pb-0 w-full">
+    return <header className="bg-black fixed top-0 left-0 right-0 w-full z-50">
         <NavBar pages={pages} />
         <MobileNavBar pages={pages} />
     </header>

@@ -13,8 +13,6 @@ export default function Job(job: IJob) {
         return ""
     }
 
-    console.log(job);
-
     return <>
         <div className="w-full max-w-7xl flex flex-grow-1 max-sm:flex-col" >
             <div className="min-w-80 max-sm:pb-2">
