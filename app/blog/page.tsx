@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Blogs from '@/data/blogs';
 import { useRef } from 'react';
 import BlogCard from '@/components/blog-card';
+import Image from 'next/image';
 
 export default function BlogPage() {
     const latestPostsRef = useRef<HTMLDivElement>(null);
@@ -60,10 +61,12 @@ export default function BlogPage() {
                                         <div className="relative w-full aspect-square bg-blue-900 rounded-lg overflow-hidden">
                                             <div className="absolute inset-0 flex items-center justify-center">
                                                 {typeof blog.image.src === 'string' ? (
-                                                    <img 
+                                                    <Image 
                                                         src={blog.image.src} 
                                                         alt={blog.image.alt} 
-                                                        className="object-cover w-full h-full"
+                                                        className="object-cover"
+                                                        fill
+                                                        sizes="(max-width: 768px) 100vw, 300px"
                                                     />
                                                 ) : (
                                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-24 h-24 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">

@@ -17,23 +17,12 @@ export default function OptimizedImage({
     const [hasError, setHasError] = useState(false);
     const [imageSrc, setImageSrc] = useState(props.src);
     
-    // Debug logs
-    useEffect(() => {
-        console.log('OptimizedImage props:', {
-            src: props.src,
-            fallbackSrc,
-            hasFill: 'fill' in props,
-            isExternalImage: typeof props.src === 'string' && (props.src.startsWith('http://') || props.src.startsWith('https://'))
-        });
-    }, [props.src, fallbackSrc, props]);
-    
     // Check if image is from an external source
     const isExternalImage = typeof imageSrc === 'string' && 
                            (imageSrc.startsWith('http://') || 
                             imageSrc.startsWith('https://'));
     
     const handleError = () => {
-        console.log('Image error occurred. Using fallback:', fallbackSrc);
         setHasError(true);
         
         // If we have a fallback image and current image is not already the fallback
@@ -67,6 +56,9 @@ export default function OptimizedImage({
         imageProps.unoptimized = true;
     }
     
+    // Create a safer way to ensure we have an alt attribute
+    const altText = typeof props.alt === 'string' ? props.alt : '';
+    
     return (
         <div 
             className={`relative overflow-hidden ${props.className}`} 
@@ -81,6 +73,7 @@ export default function OptimizedImage({
             )}
             <Image
                 {...imageProps}
+                alt={altText} /* Ensure alt attribute is always set */
                 className={`transition-opacity duration-500 ${isLoading ? 'opacity-0' : 'opacity-100'} ${props.className}`}
                 // Only apply blur placeholder for non-external images
                 {...(!isExternalImage ? {
