@@ -4,7 +4,7 @@ import Blogs from '@/data/blogs';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import OptimizedImage from '@/components/optimized-image';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, use } from 'react';
 import { marked } from 'marked';
 import DOMPurify from 'isomorphic-dompurify';
 
@@ -33,13 +33,14 @@ const MarkdownContent = ({ content }: { content: string }) => {
   );
 };
 
-export default function BlogPost({ params }: { params: { id: string } }) {
+export default function BlogPost(props: { params: Promise<{ id: string }> }) {
+    const params = use(props.params);
     const blog = Blogs.find(blog => blog.uniqueId === params.id);
-    
+
     if (!blog) {
         notFound();
     }
-    
+
 
     return (
         <div className="w-full min-h-screen text-white">
