@@ -40,8 +40,8 @@ export default function HeroSection() {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-3">David Johnson</h1>
         <RotatingTagline taglines={TAGLINES} duration={3500} />
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
-          <Link href="/cv" className="bg-[#0051E6] hover:bg-[#0051E6]/90 text-white px-6 py-3 rounded-md text-lg transition-all duration-300">
-            Explore My Work
+          <Link href="/projects" className="bg-[#0051E6] hover:bg-[#0051E6]/90 text-white px-6 py-3 rounded-md text-lg transition-all duration-300">
+            Explore Projects
           </Link>
           <Link href="/blog" className="border border-white text-white hover:bg-white/10 px-6 py-3 rounded-md text-lg transition-all duration-300">
             Read My Blog
