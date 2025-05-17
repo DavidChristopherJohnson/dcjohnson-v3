@@ -4,7 +4,14 @@
 
 :root {
   --foreground-rgb: 255, 0;
+  --card-bg-color: white;
  /* --background-start-rgb: 0, 0, 0; */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card-bg-color: #1f2937; /* This corresponds to gray-800 in Tailwind */
+  }
 }
 
 /* Remove default margins and padding */
