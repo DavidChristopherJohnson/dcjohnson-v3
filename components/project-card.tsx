@@ -22,7 +22,7 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function ProjectCard({ project }: { project: IProject }) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 border border-white/10 hover:border-blue-500/60">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 border border-white/10 hover:border-blue-500/60" style={{ backgroundColor: 'var(--card-bg-color, white)' }}>
       <div className="text-accent mb-4">
         {iconMap[project.icon] || <Briefcase className="w-8 h-8" />}
       </div>
