@@ -3,6 +3,7 @@ import "./globals.css";
 import MainHeader from '@/components/main-header';
 import MainFooter from "@/components/main-footer";
 import LayoutWrapper from "@/components/layout-wrapper";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "David Christopher Johnson",
@@ -15,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="dark">
+      <body className="dark-mode-active">
         <div className="flex flex-col min-h-screen justify-between">
           <MainHeader />
           <div className="flex-grow">
@@ -28,6 +29,16 @@ export default function RootLayout({
           </div>
           <MainFooter />
         </div>
+        
+        <Script id="enforce-dark-mode" strategy="afterInteractive">
+          {`
+            (function() {
+              // Force dark mode regardless of device preference
+              document.documentElement.classList.add('dark');
+              document.body.classList.add('dark-mode-active');
+            })();
+          `}
+        </Script>
       </body>
     </html>
   );

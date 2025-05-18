@@ -11,7 +11,7 @@ export default function ProjectsPage() {
     <div className="pt-24 md:pt-28 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Projects</h1>
-        <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl">
+        <p className="text-xl text-gray-300 max-w-3xl">
           Featured projects I&apos;ve contributed to throughout my career. These showcase my technical leadership, engineering expertise, and the business value I&apos;ve delivered.
         </p>
       </div>
@@ -23,9 +23,9 @@ export default function ProjectsPage() {
           ))}
         </div>
         
-        <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-8 border border-white/10 mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Want to work with me?</h2>
-          <p className="text-lg mb-6">
+        <div className="bg-gray-800 rounded-lg p-8 border border-white/10 mb-16">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">Want to work with me?</h2>
+          <p className="text-lg mb-6 text-gray-300">
             I&apos;m currently available for new opportunities. If you have a project in mind or are looking for a technical leader, let&apos;s talk.
           </p>
           <a 
